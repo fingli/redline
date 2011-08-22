@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: redline\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-19 22:37+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fredrik Arvidsson <fredrikmedia@gmail.com>\n"
+"Language-Team: Fredrik Arvidsson <fredrikmedia@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: Du\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+
+#: redline/404.php:15
+msgid "Error 404! Not Found"
+msgstr "Error 404! Hittades ej"
+
+#: redline/404.php:19
+#: redline/archive.php:58
+#: redline/category.php:63
+#: redline/date.php:65
+#: redline/index.php:51
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Ledsen, men du letar efter nåt som inte finns här."
+
+#: redline/archive.php:13
+msgid "Archives:"
+msgstr "Arkiv:"
+
+#: redline/archive.php:18
+#: redline/author.php:19
+#: redline/category.php:19
+#: redline/date.php:25
+#: redline/index.php:17
+#: redline/search.php:21
+msgid "Permanent Link to"
+msgstr "Direktlänk till"
+
+#: redline/archive.php:22
+#: redline/attachment.php:21
+#: redline/author.php:23
+#: redline/category.php:23
+#: redline/date.php:29
+#: redline/search.php:25
+msgid "Written by"
+msgstr "Av"
+
+# [%s] is the name of the author
+#: redline/archive.php:22
+#: redline/attachment.php:21
+#: redline/author.php:23
+#: redline/category.php:23
+#: redline/date.php:29
+#: redline/index.php:22
+#: redline/search.php:25
+#, php-format
+msgid "View all posts by %s"
+msgstr "Visa alla inlägg av %s"
+
+#: redline/archive.php:23
+#: redline/attachment.php:22
+#: redline/author.php:24
+#: redline/category.php:24
+#: redline/date.php:30
+msgid "on"
+msgstr "den"
+
+#: redline/archive.php:25
+#: redline/attachment.php:24
+#: redline/author.php:26
+#: redline/category.php:26
+#: redline/date.php:32
+#: redline/index.php:36
+#: redline/search.php:28
+msgid "Leave a Comment"
+msgstr "Lämna en kommentar"
+
+#: redline/archive.php:25
+#: redline/attachment.php:24
+#: redline/author.php:26
+#: redline/category.php:26
+#: redline/date.php:32
+#: redline/index.php:36
+#: redline/search.php:28
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: redline/archive.php:25
+#: redline/attachment.php:24
+#: redline/author.php:26
+#: redline/category.php:26
+#: redline/date.php:32
+#: redline/index.php:36
+#: redline/search.php:28
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: redline/archive.php:26
+#: redline/author.php:27
+#: redline/category.php:27
+#: redline/date.php:33
+#: redline/index.php:23
+#: redline/page.php:21
+#: redline/search.php:29
+msgid "edit"
+msgstr "ändra"
+
+#: redline/archive.php:38
+#: redline/author.php:39
+#: redline/date.php:45
+#: redline/index.php:34
+#: redline/search.php:41
+msgid "Posted in"
+msgstr "Publicerad i"
+
+#: redline/archive.php:41
+#: redline/author.php:42
+#: redline/category.php:46
+#: redline/date.php:48
+#: redline/search.php:44
+msgid "Tagged"
+msgstr "Taggad"
+
+#: redline/archive.php:54
+#: redline/attachment.php:46
+#: redline/author.php:55
+#: redline/category.php:59
+#: redline/date.php:61
+#: redline/index.php:47
+msgid "Not Found"
+msgstr "Hittades ej"
+
+#: redline/attachment.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Ledsen, inga bilagor hittades utifrån dessa kriterier."
+
+#: redline/author.php:14
+msgid "Author Archives:"
+msgstr "Författararkiv:"
+
+#: redline/author.php:59
+msgid "Sorry, but"
+msgstr "Ledsen, men"
+
+#: redline/author.php:59
+msgid "hasn't posted anything yet."
+msgstr "har inte publicerat något ännu"
+
+#: redline/category.php:14
+msgid "Category Archives:"
+msgstr "Ämnesarkiv:"
+
+#: redline/category.php:40
+msgid "Also posted in"
+msgstr "även publicerad i"
+
+#: redline/comments.php:14
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Detta inlägg är lösenordsskyddat. Ange lösenordet för att visa kommentarerna."
+
+#: redline/comments.php:28
+msgid "Older Comments"
+msgstr "Äldre kommentarer"
+
+#: redline/comments.php:29
+msgid "Newer Comments"
+msgstr "Nyare kommentarer"
+
+#: redline/comments.php:61
+msgid "Comments are closed."
+msgstr "Kommentarsfunktionen är stängd."
+
+#: redline/comments.php:71
+msgid "Leave a Reply"
+msgstr "Lämna ett svar."
+
+#: redline/comments.php:72
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Lämna ett svar till %s"
+
+#: redline/comments.php:73
+msgid "Cancel reply"
+msgstr "Avbryt svar"
+
+#: redline/comments.php:74
+msgid "Post Comment"
+msgstr "Skriv en kommentar"
+
+#: redline/date.php:15
+msgid "Daily Archives:"
+msgstr "Dagligt arkiv:"
+
+# Archive date format
+#: redline/date.php:15
+msgid "F jS, Y"
+msgstr "d.m.y"
+
+#: redline/date.php:17
+msgid "Monthly Archives:"
+msgstr "Månatligt arkiv:"
+
+#: redline/date.php:19
+msgid "Yearly Archives:"
+msgstr "Årligt arkiv:"
+
+#: redline/header.php:41
+msgid "l, j F Y - G:i"
+msgstr "l, d.m.Y - H:i"
+
+#: redline/header.php:42
+msgid "Publications"
+msgstr "Publikationer"
+
+#: redline/header.php:43
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: redline/index.php:21
+msgid "Author:"
+msgstr "Skribent:"
+
+#: redline/index.php:28
+msgid "Read more"
+msgstr "Läs mer"
+
+#: redline/index.php:29
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: redline/navigation.php:18
+msgid "Older Entries"
+msgstr "Äldre inlägg"
+
+#: redline/navigation.php:19
+msgid "Newer Entries"
+msgstr "Nyare inlägg"
+
+#: redline/search.php:13
+msgid "Search Results for:"
+msgstr "Säkresultat för:"
+
+#: redline/search.php:59
+msgid "Your search for"
+msgstr "Din sökning efter"
+
+#: redline/search.php:59
+msgid "did not match any entries"
+msgstr "matchade inga inlägg"
+
+#: redline/search.php:63
+msgid "Suggestions:"
+msgstr "Förslag:"
+
+#: redline/search.php:65
+msgid "Make sure all words are spelled correctly."
+msgstr "Kontrollera att alla ord är korrekt stavade."
+
+#: redline/search.php:66
+msgid "Try different keywords."
+msgstr "Försök med andra nyckelord."
+
+#: redline/search.php:67
+msgid "Try more general keywords."
+msgstr "Försök med mer allmänna sökord."
+
+#: redline/searchform.php:11
+msgid "Search"
+msgstr "Sök"
+
+#: redline/sidebar-left.php:13
+msgid "Pages"
+msgstr "Sidor"
+
+#: redline/sidebar-right.php:12
+msgid "Site admin"
+msgstr "Site admin"
+
+#: redline/sidebar-top.php:12
+msgid "Tags"
+msgstr "Etiketter"
+
+#: redline/tag.php:13
+msgid "Tag Archives:"
+msgstr "Etikett-arkiv:"
+
+#: redline/tag.php:41
+msgid "Also tagged"
+msgstr "Även taggat"
+
+#: redline/library/extensions/semantic-classes.php:42
+#: redline/library/extensions/semantic-classes.php:47
+msgid "Archives for"
+msgstr "Arkiv för"
+
+#: redline/library/extensions/semantic-classes.php:52
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#: redline/library/extensions/semantic-classes.php:57
+msgid "Error 404!"
+msgstr "Error 404!"
+
+#: redline/library/functions/comments.php:18
+msgid "Name"
+msgstr "Namn"
+
+#: redline/library/functions/comments.php:18
+#: redline/library/functions/comments.php:21
+msgid "(required)"
+msgstr "(krävs)"
+
+#: redline/library/functions/comments.php:21
+msgid "Email"
+msgstr "E-post"
+
+#: redline/library/functions/comments.php:24
+msgid "Website"
+msgstr "Hemsida"
+
+#: redline/library/functions/comments.php:46
+msgid "No Comments yet"
+msgstr "Inga kommentarer ännu"
+
+#: redline/library/functions/comments.php:51
+msgid "% Trackbacks"
+msgstr "% Trackbacks"
+
+#: redline/library/functions/comments.php:53
+msgid "1 Trackback"
+msgstr "1 Trackback"
+
+# Put [space] before and after " to "
+# The sentence is: A trackback to {title of the article}
+#: redline/library/functions/comments.php:70
+msgid " to "
+msgstr "till"
+
+#: redline/library/functions/comments.php:88
+msgid "You can follow all the replies to this entry through the"
+msgstr "Du kan prenumerera på alla svar till det här inlägget via"
+
+#: redline/library/functions/comments.php:88
+msgid "comments feed"
+msgstr "kommentarsflödet"
+
+#: redline/library/functions/comments.php:226
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar nu granskning."
+
+# Put [space] after "By "
+# The whole sentence is: By {author} on {date} at {time}.
+#: redline/library/functions/comments.php:270
+msgid "By "
+msgstr "Av "
+
+# Put [space] before and after " on "
+# The whole sentence is: By {author} on {date} at {time}.
+#: redline/library/functions/comments.php:271
+msgid " on "
+msgstr " den "
+
+# Put [space] before and after " at "
+# The whole sentence is: By {author} on {date} at {time}.
+#: redline/library/functions/comments.php:272
+msgid " at "
+msgstr " kl "
+
+#: redline/library/functions/comments.php:274
+msgid "Your trackback is awaiting moderation."
+msgstr "din trckback inväntar granskning."
+
+#: redline/library/functions/functions.php:27
+msgid "Primary Menu"
+msgstr "Huvudmeny"
+
+#: redline/library/functions/functions.php:28
+msgid "Secondary Menu"
+msgstr "Sekundär meny"
+
+#: redline/library/functions/pluggable.php:20
+msgid "leave a comment"
+msgstr "Lämna en kommentar"
+
+#: redline/library/functions/pluggable.php:20
+msgid "comment"
+msgstr "kommentar"
+
+#: redline/library/functions/pluggable.php:20
+msgid "comments"
+msgstr "kommentarer"
+
+#: redline/library/functions/pluggable.php:20
+msgid "comments closed"
+msgstr "kommentarersfunktionen är avstängd"
+
+#: redline/library/functions/pluggable.php:118
+msgid "Permalink to this comment"
+msgstr "Direktlänk till den här kommentaren"
+
+#: redline/library/functions/pluggable.php:119
+msgid "Permalink"
+msgstr "Direktlänk"
+
+#: redline/library/functions/pluggable.php:147
+msgid "Reply"
+msgstr "Svara"
+
+#: redline/library/functions/pluggable.php:148
+msgid "Log in to reply."
+msgstr "Logga in för att svara."
+
+#: redline/library/functions/widgets.php:15
+msgid "Top Widget Area"
+msgstr "Topp-widget-område"
+
+#: redline/library/functions/widgets.php:16
+msgid "Top widget area"
+msgstr "Topp-widget-område"
+
+#: redline/library/functions/widgets.php:26
+msgid "Left Widget Area"
+msgstr "Vänster widget-område"
+
+#: redline/library/functions/widgets.php:27
+msgid "The left widget area"
+msgstr "Vänster widget-område"
+
+#: redline/library/functions/widgets.php:37
+msgid "Right Widget Area"
+msgstr "Höger widget-område"
+
+#: redline/library/functions/widgets.php:38
+msgid "The right widget area"
+msgstr "Höger widget-område"
+
+#: redline/library/functions/widgets.php:49
+msgid "First Footer Widget Area"
+msgstr "Första footer widget"
+
+#: redline/library/functions/widgets.php:50
+msgid "The first footer widget area"
+msgstr "Första footer widget-området"
+
+#: redline/library/functions/widgets.php:60
+msgid "Second Footer Widget Area"
+msgstr "Andra widget-område"
+
+#: redline/library/functions/widgets.php:61
+msgid "The second footer widget area"
+msgstr "Andra footer widget-område"
+
+#: redline/library/functions/widgets.php:71
+msgid "Third Footer Widget Area"
+msgstr "Footer widget-oråde"
+
+#: redline/library/functions/widgets.php:72
+msgid "The third footer widget area"
+msgstr "Tredje footer widget-område"
+
+#: redline/library/functions/widgets.php:82
+msgid "Fourth Footer Widget Area"
+msgstr "Fjärde footer widget-område"
+
+#: redline/library/functions/widgets.php:83
+msgid "The fourth footer widget area"
+msgstr "Fjärde footer widget-område"
+

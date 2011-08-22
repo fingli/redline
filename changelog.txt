@@ -1,0 +1,26 @@
++-+-+-+-+-+-+-+-+-+  
+|C|h|a|n|g|e|l|o|g| 
++-+-+-+-+-+-+-+-+-+ 
+
+
+v. 1.70 - August 2011
+
+ - Added Swedish localization
+ - Added "UnifrakturMaguntia" font for the blog title
+ - Moved Search-form above the header
+ - Removed RSS links from upper right corner
+ - Updated Modernizr.js to v. 2.0.6
+ - Replaced default sans-serif fonts with serif ones
+ - Other minor CSS improvements 
+ 
+ 
+v. 1.65 - May 2011
+
+ - Added Vietnamese language
+ - Several CSS improvements. 
+ 
+ 
+v. 1.6 - March 2011
+
+ - Added Itallian localization
+ - Minor CSS improvements
