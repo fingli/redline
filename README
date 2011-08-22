@@ -1,6 +1,12 @@
-test
+   _____          _ _      _            
+  |  __ \        | | |    (_)           
+  | |__) |___  __| | |     _ _ __   ___ 
+  |  _  // _ \/ _` | |    | | '_ \ / _ \
+  | | \ \  __/ (_| | |____| | | | |  __/
+  |_|  \_\___|\__,_|______|_|_| |_|\___|
 
-test test    ********
 
+A lightweight but powerful theme for WordPress built on WP Framework.
 
-3 test 
+RedLine includes custom menus, changeable header and background; and other features like microformats, a traditional template structure, clean semantic code and atomic template system.
+The theme supports seven widgetized areas /3 in sidebars and 4 in footer/. And moreover its code is compatible with HTML5, CSS3 and Accessibility (Section 508) standards.
