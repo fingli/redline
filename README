@@ -8,5 +8,16 @@
 
 A lightweight but powerful theme for WordPress built on WP Framework.
 
-RedLine includes custom menus, changeable header and background; and other features like microformats, a traditional template structure, clean semantic code and atomic template system.
-The theme supports seven widgetized areas /3 in sidebars and 4 in footer/. And moreover its code is compatible with HTML5, CSS3 and Accessibility (Section 508) standards.
+RedLine includes custom menus, changeable header and background; and
+other features like microformats, a traditional template structure, clean
+semantic code and atomic template system.
+The theme supports seven widgetized areas /3 in sidebars and 4 in footer/.
+Its code is compatible with HTML5, CSS3 and Accessibility (Section 508)
+standards.
+
+RedLine is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, version 2 of the License.
+
+(c) All rights belong to the authors and contributors
+of WP Framework and RedLine.
