@@ -4,7 +4,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="generator" content="WordPress" />
-		<!--
+	<!--
 	+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+ +-+-+-+-+ 
 	|W|o|r|d|P|r|e|s|s| |i|s| |t|h|e| |b|e|s|t| 
 	+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+ +-+-+-+-+ -->
