@@ -1,4 +1,3 @@
-
 REDLINE THEME
 =============
 
@@ -11,7 +10,7 @@ RedLine includes custom menus, changeable header and background; and
 other features like microformats, a traditional template structure, clean
 semantic code and atomic template system.
 
-Its code is compatible with **HTML5, CSS3 and Accessibility**
+Its code is compatible with **HTML5, CSS3** and **Accessibility**
 standards. 
 
  
