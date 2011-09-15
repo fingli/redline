@@ -17,8 +17,7 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>" type="text/css" media="screen, projection" />
 	<link rel="stylesheet" href="<?php echo CSS . '/print.css'; ?>" type="text/css" media="print" />
-	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' type='text/css'>
-	
+		
 	<!-- Favicon: Browser + iPhone Webclip -->
 	<link rel="shortcut icon" href="<?php echo IMAGES . '/favicon.ico'; ?>" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="<?php echo IMAGES . '/iphone.png'; ?>" />

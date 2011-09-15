@@ -230,7 +230,7 @@ width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
 text-align: center; min-height: 85px !important;
 }
 
-#headimg h1 { font-size: 48px; line-height: 1.7em; font-weight:bold; text-align:center; font-family: "Times New Roman", Times, "DejaVu Serif", serif; margin:0; }
+#headimg h1 { font-size: 48px; line-height: 1.5em; font-weight:bold; text-align:center; font-family: "Trebuchet MS", "DejaVu Sans Serif", sans-serif; margin:0; }
 #headimg h1 a { text-decoration:none; }
 
 #desc { display: none; }

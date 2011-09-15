@@ -83,7 +83,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form, .gallery-row
  /* Logo */
 #logo { clear: both; }
 #blog_header, 
-#blog_header a { font-size: 48px; line-height: 1.7em; font-weight: bold; text-align: center; font-family: "UnifrakturMaguntia", "Times New Roman", Times, "DejaVu Serif", serif; margin: 0 5px; color: transparent; text-decoration: none; } 
+#blog_header a { font-size: 48px; line-height: 1.5em; font-weight: bold; text-align: center; font-family: "Trebuchet MS", "DejaVu Sans Serif", sans-serif; margin: 0 5px; color: transparent; text-decoration: none; } 
 
  /* Search */
 #search_box { display: inline; float: right; margin-bottom: 0; }
