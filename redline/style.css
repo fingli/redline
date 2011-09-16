@@ -192,7 +192,7 @@ ul.nav li.current_page_item a, ul.nav li.current-menu-item a { background: #7029
 #secondary a {color: #682860; text-shadow: 0 0.5px 0 #FFF; }
 a { color: #00213A; text-decoration: none; }
 a:hover { text-decoration: underline; color: #9D4F4F; }
-.entry-content a:link, .entry-content a:active { color: #92000A; text-decoration: none; }
+.entry-content a:link, .entry-content a:active { color: #91003A; text-decoration: none; }
 .entry-content a:hover { text-decoration: underline; }
 .entry-content a:visited  { color: #9D724F; }
 .entry-content a:visited:hover { text-decoration: underline; color: #9D4F4F; }
@@ -221,7 +221,7 @@ h6 { font-size: 10px; line-height: 16px; }
 address { background: #F8F8FF; font-style: italic; padding: 0 5px; }
 abbr[title], acronym[title], dfn[title] { cursor: help; border-bottom: 1px dotted #666; }
 
-blockquote { color: #333; background:#F2F2F2; font-size:12px; font-style: normal; border-left: 2px solid #929292; margin-left: 15px; margin-right: 25px; padding: 0 10px 0 5px; }
+blockquote { color: #333; background:#F2F2F2; font-size:12px; font-style: normal; border-left: 4px solid #D3999D; margin-left: 15px; margin-right: 25px; padding: 0 10px 0 5px; }
 
 strong { font-weight: bold; }
 em, dfn, cite { font-style: italic; }
