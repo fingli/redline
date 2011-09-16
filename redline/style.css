@@ -289,7 +289,7 @@ input[type="submit"] { cursor: pointer; }
 
  /* Widgets */
 .widget-title a { color: #111; }
-.widget-title { font-weight: bold; font-size: 11px; line-height: 1.55em; border-bottom: 2px solid #92000A; border-right: 1px solid #444; color: #111; background: url("library/media/images/widget_bg.png") repeat-y scroll left center #C2C2C2; padding: 5px 0 5px 5px; text-transform: uppercase; margin-bottom: 3px; text-shadow: 0 1px 0 #FFF; }
+.widget-title { font-weight: bold; font-size: 11px; line-height: 1.55em; border-bottom: 1px solid #999; border-left: 4px solid #92000A; border-right: 1px solid #999; color: #111; background: url("library/media/images/widget_bg.png") repeat-y scroll left center #C2C2C2; padding: 5px 0 5px 5px; text-transform: uppercase; margin-bottom: 3px; text-shadow: 0 1px 0 #FFF; }
 .rsswidget img { vertical-align: bottom; }
 
  /* Comments */
