@@ -102,7 +102,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form, .gallery-row
 .nav li { padding: 0; position: relative; background: #333; height: 24px; }
 .nav ul li { width: 100%; }
 
-ul.nav li.current_page_item a, ul.nav li.current-menu-item a { background: #900; text-decoration: none; font-size: 11px; font-weight: bold; text-shadow: none; }
+ul.nav li.current_page_item a, ul.nav li.current-menu-item a { background: #702963; text-decoration: none; font-size: 11px; font-weight: bold; text-shadow: none; }
 
   /* [.nav] Hides items under top menu */
 .nav ul { position: absolute; top: -9999em; width: 20em; /* left offset of submenus need to match (see below) */ }
@@ -179,7 +179,7 @@ ul.nav li.current_page_item a, ul.nav li.current-menu-item a { background: #900;
 #catg .nav li.nav-hover ul { background: #C2C2C2; }
 
 #catg .nav a { display: block; position: relative; padding: 0 10px; border: none; color: #111; font-weight: normal; font-size: 10px; text-shadow: 0 1px 0 #FFF; }
-#catg .nav a:hover { color:#FFF; background: #007A8F; text-decoration: none; text-shadow: 0.1em 0.1em 0 #111; }
+#catg .nav a:hover { color:#FFF; background: #009188; text-decoration: none; text-shadow: 0.1em 0.1em 0 #111; }
 #catg .nav ul a { border-right: none; }
 #catg .nav li:hover, #catg .nav li.nav-hover,
 #catg .nav a:focus { background: #A6B7C8; }
@@ -190,13 +190,13 @@ ul.nav li.current_page_item a, ul.nav li.current-menu-item a { background: #900;
 
  /* Links */
 #secondary a {color: #682860; text-shadow: 0 0.5px 0 #FFF; }
-a { color: #808080; text-decoration: none; }
+a { color: #00213A; text-decoration: none; }
 a:hover { text-decoration: underline; color: #9D4F4F; }
-.entry-content a:link, .entry-content a:active { color: #900; text-decoration: none; }
+.entry-content a:link, .entry-content a:active { color: #92000A; text-decoration: none; }
 .entry-content a:hover { text-decoration: underline; }
 .entry-content a:visited  { color: #9D724F; }
 .entry-content a:visited:hover { text-decoration: underline; color: #9D4F4F; }
-.more-link { background: #9D4F4F; color: #FFF !important; padding: 0 2px 2px; }
+.more-link { background: #9D4F4F; color: #FFF !important; padding: 3px; }
 
  /* Headings */
 h1, h2, h3, h4, h5, h6 { font-family: "Palatino Linotype", Palatino, serif; font-weight: bold; clear: both; }
@@ -211,10 +211,10 @@ h6 { font-size: 10px; line-height: 16px; }
 .hentry { }
 .page-title { font-size: 14px; font-weight: bold; }
 .page-title span { font-size: 2em; font-style: italic; }
-.entry-title a  { color: #333; text-shadow: 0.08em 0.08em 0.1em #AAA; }
+.entry-title a  { color: #222; text-shadow: 0.08em 0.08em 0.1em #AAA; }
 .entry-title { color: #111; font-size: 2.25em; letter-spacing: -1px; line-height: 1em; padding: 0; text-align: left; font-weight: bold; font-family: "Palatino Linotype", Palatino, serif; }
 .entry-title a:hover { color: #7E3F63; text-decoration: none; text-shadow: 0 1px 0 #FFF;}
-.entry-content { padding: 5px 10px 0; }
+.entry-content { padding: 5px 10px; }
 .sticky .entry-content { background: url("library/media/images/pin.png") no-repeat scroll center top #F2F9FF; border: 10px solid #CEE0F2; margin: 10px 0; padding: 20px 10px 10px; border-radius: 10px; }
 
  /* Text Elements */
@@ -288,8 +288,8 @@ input[type="submit"] { cursor: pointer; }
 .chrome input { padding: 1px 3px; }
 
  /* Widgets */
-.widget-title a { color: #031634; }
-.widget-title { font-weight: bold; font-size: 11px; line-height: 1.45em; border-left: 1px solid #fff; border-bottom: 2px solid #92000A; border-top: 1px solid #fff; color: #031634; background: url("library/media/images/widget_bg.png") repeat-y scroll left center #C2C2C2; padding: 5px 0 5px 5px; text-transform: uppercase; margin-bottom: 3px; text-shadow: 0 1px 0 #FFF; }
+.widget-title a { color: #111; }
+.widget-title { font-weight: bold; font-size: 11px; line-height: 1.55em; border-bottom: 2px solid #92000A; border-right: 1px solid #444; color: #111; background: url("library/media/images/widget_bg.png") repeat-y scroll left center #C2C2C2; padding: 5px 0 5px 5px; text-transform: uppercase; margin-bottom: 3px; text-shadow: 0 1px 0 #FFF; }
 .rsswidget img { vertical-align: bottom; }
 
  /* Comments */
@@ -314,7 +314,7 @@ input[type="submit"] { cursor: pointer; }
 
  /* Comment Reply */
 #respond { margin-left: 5px; }
-.comment-reply a { background: #3F7E3F !important; color: #FFF; padding: 0 2px 2px; }
+.comment-reply a { background: #3F7E3F !important; color: #FFF; padding: 3px; }
 .form-submit input { border-color: #DDD #AAA #AAA #DDD;  cursor: pointer; }
 .form-submit input:active { background: #3F7E3F; color: #FFF; }
 
