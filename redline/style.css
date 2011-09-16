@@ -102,7 +102,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form, .gallery-row
 .nav li { padding: 0; position: relative; background: #333; height: 24px; }
 .nav ul li { width: 100%; }
 
-ul.nav li.current_page_item a { background: #900; text-decoration: none; font-size: 11px; font-weight: bold; text-shadow: none; }
+ul.nav li.current_page_item a, ul.nav li.current-menu-item a { background: #900; text-decoration: none; font-size: 11px; font-weight: bold; text-shadow: none; }
 
   /* [.nav] Hides items under top menu */
 .nav ul { position: absolute; top: -9999em; width: 20em; /* left offset of submenus need to match (see below) */ }
@@ -183,7 +183,7 @@ ul.nav li.current_page_item a { background: #900; text-decoration: none; font-si
 #catg .nav ul a { border-right: none; }
 #catg .nav li:hover, #catg .nav li.nav-hover,
 #catg .nav a:focus { background: #A6B7C8; }
-#catg ul.nav li.current-cat a, .current-category-ancestor a { color: #FFF !important; background: #007A8F; text-decoration: none; text-shadow: 0.1em 0.1em 0 #111 !important; }
+#catg ul.nav li.current-cat a, #catg ul.nav li.current-menu-item a, .current-category-ancestor a { color: #FFF !important; background: #007A8F; text-decoration: none; text-shadow: 0.1em 0.1em 0 #111 !important; }
   /* [#catg] bugfix */
 .ie7 #catg .nav:hover { visibility: inherit; /* fixes IE7 'sticky bug' */ }
 
