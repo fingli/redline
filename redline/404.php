@@ -11,7 +11,7 @@ get_header();
 	<!--BEGIN #primary .hfeed-->
 	<div id="primary" class="hfeed" role="main">
 		<!--BEGIN #post-0-->
-		<div id="post-0" class="<?php semantic_entries(); ?>">
+		<div id="post-0" class="post no-results not-found">
 			<h1 class="entry-title"><?php _e( 'Error 404! Not Found', 'redline' );?></h1>
 
 			<!--BEGIN .entry-content-->

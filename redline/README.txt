@@ -15,11 +15,11 @@
 ################ +++++++ ################
 
 
-'- GNU GPLicense - license.txt
-'- Latest changes - changelog.txt
-'- WP Framework initial readme - WP Framework readme.txt
-'- Translation and credits - /lang/translation README.txt
-'- Framework Library explained - /library/readme.txt
+ - GNU GPLicense - license.txt
+ - Latest changes - changelog.txt
+ - WP Framework initial readme - WP Framework readme.txt
+ - Translation and credits - /lang/translation README.txt
+ - Framework Library explained - /library/readme.txt
 
 
 Copyright

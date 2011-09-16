@@ -57,7 +57,7 @@ get_header();
 				<?php else : ?>
 
 				<!--BEGIN #post-0-->
-				<div id="post-0" class="<?php semantic_entries(); ?>">
+				<div id="post-0" class="post no-results not-found">
 					<h2 class="entry-title"><?php _e( 'Not Found', 'redline' );?></h2>
 
 					<!--BEGIN .entry-content-->
