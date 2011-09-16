@@ -18,7 +18,7 @@ get_header();
 
 		<!--BEGIN .entry-meta .entry-header-->
 		<section class="meta-header"><div class="entry-meta entry-header">
-		<span class="published"> <abbr class="published-time" title="<?php the_time( get_option( 'date_format' ) .' - '. get_option( 'time_format' ) ); ?>"><?php the_time( get_option( 'date_format' ) ); ?></abbr></span> | <?php _e( 'Author:', 'redline' );?>
+		<span class="published"> <a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php _e( 'Permanent Link to' ,'redline' );?> <?php the_title(); ?>"> <?php the_time( get_option( 'date_format' ) ); ?></a></span> | <?php _e( 'Author:', 'redline' );?>
 		<span class="author vcard"> <?php printf( '<a class="url fn" href="' . get_author_posts_url( $authordata->ID, $authordata->user_nicename ) . '" title="' . sprintf( __( 'View all posts by %s', 'redline' ), $authordata->display_name ) . '">' . get_the_author() . '</a>' ) ?></span>
 <?php edit_post_link( __( 'edit', 'redline' ), '<span class="edit-post">[', ']</span>' ); ?>
 		</div></section><!--END .entry-meta .entry-header-->
