@@ -2,7 +2,16 @@
 |C|h|a|n|g|e|l|o|g| 
 +-+-+-+-+-+-+-+-+-+ 
 
+v. 1.90 - September 2011
 
+ - Fixed a potential security hole
+ - Removed the year from display in footer copyright
+ - Removed font UnifrakturMaguntia from header title
+ - Removed semantic tags from post-0 (error 404 page)
+ - Added permalink to post's date in index.php
+ - Some CSS improvements
+
+ 
 v. 1.70 - August 2011
 
  - Added Swedish localization
