@@ -11,6 +11,8 @@ All translations are distributed under GPL.
 ## en_US English        default language
 
 
+# be_BY Belarusian      Alexander Ovsov - http://webhostinggeeks.com/science/
+
 # sv_SE Swedish         Fredrik Arvidsson - www.fredrikarvidsson.com
 
 # vi    Vietnamese      Potato - www.mabinhluan.thekyokai.info
