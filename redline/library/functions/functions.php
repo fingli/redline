@@ -216,7 +216,19 @@ function header_style() {
 height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
 width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
 }
-#blog_header a { color:#<?php header_textcolor();?>; }
+	<?php
+		//  Has the text been hidden?
+		//  If so, set display to equal none
+		if ( 'blank' == get_header_textcolor() ) { ?>
+		  #blog_header a { display: none; }
+
+		<?php } else {
+		  //  Otherwise, set the color to be the user selected one
+		?>
+			#blog_header a { color: #<?php header_textcolor();?>; }
+
+		<?php } ?>
+
 </style>
 <?php
 }
