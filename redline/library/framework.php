@@ -86,6 +86,7 @@ class WPFramework {
 		add_action( 'init', 'register_redline_menus' ); // add custom menus 
 		add_theme_support( 'automatic-feed-links' ); // add default posts and comments RSS feed links to head
 		add_theme_support( 'post-thumbnails' ); // support thumbnails in posts
+		add_theme_support( 'post-formats', array( 'aside', 'quote' ) ); // add different layouts for post contnent
 		add_filter( 'the_generator', 'remove_generator_link', 1 ); // remove_generator_link() Removes generator link - Credits: (http://www.plaintxt.org)
 		add_filter( 'use_default_gallery_style', '__return_false' ); // remove inline styles printed when the gallery shortcode is used
 		add_filter( 'wp_page_menu', 'framework_menu_ulclass' ); // adds a .nav class to the ul wp_page_menu generates
