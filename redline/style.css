@@ -1,7 +1,7 @@
 /***
 Theme Name:		RedLine
 Theme URI: 		http://post-scriptum.info/redline-theme/
-Version: 		
+Version:		
 Description:		A lightweight but powerful WordPress theme built on WP Framework. RedLine includes custom menus, changeable header and background; and other features like microformats, a traditional template structure, clean semantic code and atomic template system. The theme supports seven widgetized areas [3 in sidebars and 4 in footer]. And moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> (<a href="http://www.access-board.gov/sec508/standards.htm">Section 508</a>) standards. Currently RedLine is available in English (default), Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese and Swedish languages.
 Author: 		Yulian Yordanov
 Author URI:		http://post-scriptum.info/
@@ -236,7 +236,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 #logo {
 	clear: both;
 }
-#blog_header, 
+#blog_header,
 #blog_header a {
 	color: transparent;
 	font-family: "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
@@ -590,6 +590,17 @@ h6 {
 
 /* Content */
 
+.format-aside .entry-title {
+    display: none;
+}
+.format-aside {
+    background: #f5f5f5;
+	color: #111;
+	font: 11px/1.5 Verdana, Geneva, sans-serif;
+}
+.format-aside .entry-content p:before {
+	content: url("library/media/images/pin.png");
+} 
 .page-title {
 	font-size: 14px;
 	font-weight: bold;
