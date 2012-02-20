@@ -238,7 +238,6 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 }
 #blog_header,
 #blog_header a {
-	color: transparent;
 	font-family: "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	font-size: 48px;
 	font-weight: bold;
@@ -594,7 +593,7 @@ h6 {
     display: none;
 }
 .format-aside {
-    background: #f5f5f5;
+    background: #F8F8F8;
 	color: #111;
 	font: 11px/1.5 Verdana, Geneva, sans-serif;
 }
