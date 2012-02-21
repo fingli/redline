@@ -2,6 +2,16 @@
 |C|h|a|n|g|e|l|o|g| 
 +-+-+-+-+-+-+-+-+-+ 
 
+v. 2.0.0 - February 2012
+
+ - Added Belarusian translation
+ - Added post formats support
+ - Updated script 'Modernizr'
+ - Fixed showing header title when it's set to hidden
+ - Removed hardcoded background image 
+ - Some other minor changes
+
+
 v. 1.90 - September 2011
 
  - Fixed a potential security hole
