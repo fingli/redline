@@ -589,17 +589,24 @@ h6 {
 
 /* Content */
 
-.format-aside .entry-title {
+.format-aside .entry-title,
+.format-status .entry-title {
     display: none;
 }
 .format-aside {
     background: #F8F8F8;
 	color: #111;
-	font: 11px/1.5 Verdana, Geneva, sans-serif;
 }
 .format-aside .entry-content p:before {
 	content: url("library/media/images/pin.png");
 } 
+.format-chat .entry-content p{
+	border-left: 2px dotted #666;
+	font-family: Consolas, Monaco, "Lucida Console", "Courier New", monospace;
+	margin-left: 15px;
+	padding-left: 5px;
+}
+
 .page-title {
 	font-size: 14px;
 	font-weight: bold;
