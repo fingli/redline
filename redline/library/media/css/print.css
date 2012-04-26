@@ -6,13 +6,13 @@
  */
 
 /* Document Body */
-body { background: #fff; color: #000; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 10pt; line-height: 1.5; }
+body { width: 650px; background: #fff; color: #000; font-family: "Times New Roman", Times, serif; font-size: 12pt; line-height: 1.5; }
 
-/* No Show - Hide various parts of the theme
-#header, #navigation, #secondary, #footer { display: none; } */
+/* No Show - Hide various parts of the theme */
+#feedarea, #header, #navigation, #secondary, #footer, #respond, .entry-meta, .navigation-links { display: none; } 
 
 /* Anchor Element (links) */
-a:link, a:visited { background: transparent; font-weight: 700; text-decoration: underline; color: #333; }
+a:link, a:visited { background: transparent; text-decoration: underline; color: #333; }
 a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 90%; }
 
 	/* If you're having trouble printing relative links, uncomment and customize this:
@@ -23,10 +23,10 @@ a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 90%; }
 	} */
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "Times New Roman", Times, serif; }
  
 /* Element Changes */
-blockquote { margin: 1.5em; padding: 1em; font-style: italic; font-size: .9em; }
+blockquote { margin: 1.5em; padding: 1em; font-style: italic; font-size: 0.9em; }
 code { font: 0.9em "Courier New", Monaco, Courier, monospace; } 
 img { float: left; margin: 1.5em 1.5em 1.5em 0; }
 a img { border: none; }
