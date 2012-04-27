@@ -13,7 +13,7 @@
 		<div id="sidebar_footer" role="complementary"><?php get_sidebar( 'footer' ); ?></div>
 
 		<!--BEGIN #copyright-->
-		<footer role="contentinfo"><div id="copyright">&copy; <a href="<?php echo home_url( '/' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>. <?php redline_credits(); ?></div></footer>
+		<footer role="contentinfo"><div id="copyright">&copy; <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>. <?php redline_credits(); ?></div></footer>
 		<!--END #copyright-->
 
 	</div><!--END #footer-->

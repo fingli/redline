@@ -52,7 +52,7 @@
 		
 		<!--Logo-->
 		<header role="banner"><div id="logo">
-		<h1 id="blog_header"><a href="<?php echo home_url( '/' ); ?>" rel="home"><?php bloginfo( 'name' ) ?></a></h1></div></header><!--End Logo-->
+		<h1 id="blog_header"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ) ?></a></h1></div></header><!--End Logo-->
 
 		<!--Secondary menu-->
 		<div id="sec_nav" role="navigation"><?php sec_redline_nav(); ?></div>
