@@ -1,8 +1,8 @@
 /***
 Theme Name:		RedLine
 Theme URI:		http://post-scriptum.info/redline-theme/
-Version:		2.0.0
-Description:	A lightweight but powerful WordPress theme built on WP Framework. RedLine includes custom menus, changeable header and background; and other features like microformats, a traditional template structure, clean semantic code and atomic template system. The theme has seven widgetized areas (3 in sidebars and 4 in footer) and supports diferent post formats. Moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> (<a href="http://www.access-board.gov/sec508/standards.htm">Section 508</a>) standards. Currently RedLine is available in English (default), Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese, Swedish and Belarusian languages.
+Version:		2.x.x
+Description:	A lightweight but powerful WordPress theme built on WP Framework. RedLine includes custom menus, changeable header and background. It has print friendly layout and other features like microformats, a traditional template structure, clean semantic code and atomic template system. The theme has seven widgetized areas (3 in sidebars and 4 in footer) and supports diferent post formats. Moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> (<a href="http://www.access-board.gov/sec508/standards.htm">Section 508</a>) standards. Currently RedLine is available in English (default), Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese, Swedish, Belarusian and Romanian languages.
 Author: 		Yulian Yordanov
 Author URI:		http://post-scriptum.info/
 Tags:			light, white, red, two-columns, three-columns, right-sidebar, custom-header, custom-background, custom-menu, fixed-width, sticky-post, threaded-comments, microformats, post-formats, translation-ready
@@ -105,15 +105,14 @@ a img {
 #primary {
 	background: #FFF url(library/media/images/content_bg.png) repeat-y scroll right center;
 	float: left;
-	padding: 10px 15px 10px 0px;
+	padding: 10px;
 	text-align: justify;
-	width: 530px;
+	width: 520px;
 }
 #secondary {
-	background: #EEE;
+	background: #F8F8F8;
 	float: right;
-	padding: 10px 5px 10px 10px;
-	text-shadow: 0 0.5px 0 #FFF;
+	padding: 10px;
 	width: 400px;
 }
 #footer {
@@ -616,14 +615,12 @@ h6 {
 	font-style: italic;
 }
 .entry-title a {
-	color: #222;
-	text-shadow: 0.08em 0.08em 0.1em #AAA;
+	color: #434343;
 }
 .entry-title {
-	color: #111;
-	font-family: "Palatino Linotype", Palatino, serif;
+	color: #333;
+	font-family: "Arial Black", sans-serif;
 	font-size: 2.25em;
-	font-weight: bold;
 	letter-spacing: -1px;
 	line-height: 1em;
 	padding: 0;
@@ -635,7 +632,7 @@ h6 {
 	text-shadow: 0 1px 0 #FFF;
 }
 .entry-content {
-	padding: 5px 10px;
+	padding: 5px;
 }
 .sticky .entry-content {
 	background: url("library/media/images/pin.png") no-repeat scroll center top #F2F9FF;
@@ -858,8 +855,7 @@ input[type="submit"] {
 	border-left: 4px solid #92000A;
 	border-right: 1px solid #999;
 	color: #111;
-	font-size: 11px;
-	font-weight: bold;
+	font-size: 12px;
 	line-height: 1.55em;
 	margin-bottom: 3px;
 	padding: 5px 0 5px 5px;
