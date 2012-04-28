@@ -95,7 +95,7 @@ a img {
 /* Basic 2 column, (content)(aside), fixed layout */
  
 #container {
-	background: #F2F2F2;
+	background: #F5F5F5;
 	border: 10px solid #FFF;
 	clear: both;
 	margin: 0 auto 10px;
@@ -283,7 +283,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 	width: 100%;
 }
 .menu {
-	border-bottom: 1px solid #666;
+	border-bottom: 1px solid #000;
 	float: left;
 }
 .menu ul {
@@ -296,7 +296,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 .nav {
 	color: #111;
 	float: left;
-	font-family: Palatino, "Palatino Linotype", "DejaVu Serif", serif;
+	font-family: Verdana, Geneva, sans-serif;
 	width: 100%;
 }
 .nav, .nav * {
@@ -305,7 +305,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 	margin-left: 0;
 }
 .nav li {
-	background: #333;
+	background: #EBEBE5;
 	height: 24px;
 	padding: 0;
 	position: relative;
@@ -315,7 +315,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 }
 ul.nav li.current_page_item a,
 ul.nav li.current-menu-item a {
-	background: #702963;
+	background: #638D00;
+	color: #FFF;
 	font-size: 11px;
 	font-weight: bold;
 	text-decoration: none;
@@ -360,7 +361,7 @@ ul.nav li.current-menu-item a {
 
 /* [.nav] Default Skin */
 .nav ul {
-	border: 1px solid #eee;
+	/* border: 1px solid #EEE; */
 }
 .nav li:hover ul,
 .nav li.nav-hover ul {
@@ -369,7 +370,7 @@ ul.nav li.current-menu-item a {
 .nav a {
 	border-right: 1px solid #666;
 	border-top: 1px solid #666;
-	color: #FFF;
+	color: #000;
 	display: block;
 	font-size: 0.85em;
 	font-weight: normal;
