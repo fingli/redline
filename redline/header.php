@@ -36,7 +36,6 @@
 	<section id="siteinfo"><div id="feedarea">
 	<dl><dt><span style="float:left;"><?php bloginfo( 'description' ) ?></span>
 		<?php echo date_i18n( __( 'l, j F Y - G:i', 'redline' ) ); ?></dt>
-	<!--BEGIN Search Area--><dd id="search_box" role="search"><?php get_search_form(); ?></dd><!--END Search Area-->
 	</dl></div></section>
 	<!--End infoarea -->
 
