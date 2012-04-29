@@ -6,7 +6,7 @@
  */
 
 /* Document Body */
-body { width: 650px; background: #fff; color: #000; font-family: "Times New Roman", Times, serif; font-size: 12pt; line-height: 1.5; }
+body { width: 650px; background: #fff; color: #000; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 11pt; line-height: 1.5; }
 
 /* No Show - Hide various parts of the theme */
 #feedarea, #header, #navigation, #secondary, #footer, #respond, .entry-meta, .navigation-links { display: none; } 
@@ -23,7 +23,7 @@ a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 90%; }
 	} */
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 { font-family: "Times New Roman", Times, serif; }
+h1, h2, h3, h4, h5, h6 { font-family: Helvetica, Arial, sans-serif; }
  
 /* Element Changes */
 blockquote { margin: 1.5em; padding: 1em; font-style: italic; font-size: 0.9em; }
