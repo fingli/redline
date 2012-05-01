@@ -90,15 +90,23 @@ a img {
 
 
 	/** Applying base theme styles and colors **/
+	
 
+/* Document Body */
+
+body, input, textarea {
+	background: #FFFAFA;
+	color: #333;
+	font: 0.81em/1.62 Georgia, "Times New Roman", Times, serif;
+}
 	
 /* Basic 2 column, (content)(aside), fixed layout */
  
 #container {
-	background: #F5F5F2;
-	border: 10px solid transparent;
+	background: padding-box #EBEBE5;
+	border: 10px solid rgba(0, 0, 0, 0.05);
 	border-radius: 10px;
-	box-shadow: 0 0 2px #333;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	clear: both;
 	margin: 0 auto 10px;
 	width: 960px;
@@ -112,6 +120,7 @@ a img {
 	width: 520px;
 }
 #secondary {
+	background: #F5F5F2;
 	box-shadow: 0 0 2px #8D8B8C;
 	float: right;
 	padding: 10px;
@@ -120,7 +129,7 @@ a img {
 #footer {
 	background: #333;
 	clear: both;
-	color: #AAA;
+	color: #B0B0AD;
 	margin-bottom: 0;
 	padding: 5px 0;
 }
@@ -140,7 +149,7 @@ a img {
 	width: 195px;
 }
 #sidebar_right {
-	border-left: 1px dotted #C2C2C2;
+	border-left: 1px dotted #B0B0AD;
 	float: right;
 	padding-left: 5px;
 	width: 195px;
@@ -158,15 +167,6 @@ a img {
 }
 #footer-widget-area #fourth {
 	margin-right: 0;
-}
-
-
-/* Document Body */
-
-body, input, textarea {
-	background: #EBEBE5;
-	color: #333;
-	font: 0.81em/1.62 Georgia, "Times New Roman", Times, serif;
 }
 
 
@@ -278,7 +278,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 /* Pages Navigation */
 
 #topmenu {
-	background: #FFF;
+	background: #F5F5F2;
 	height: 24px;
 	width: 100%;
 }
@@ -413,6 +413,7 @@ ul.nav li.current-menu-item a {
 /* [#catg] Menu */
 #catg .nav {
 	background: #EBEBE5;
+	border-bottom: 1px solid #8D8B8C;
 	margin: 0;
 	width: 100%;
 }
@@ -472,7 +473,7 @@ ul.nav li.current-menu-item a {
 /* [#catg] Default Skin */
 #catg .nav li:hover ul,
 #catg .nav li.nav-hover ul {
-	background: #C2C2C2;
+	background: #B0B0AD;
 }
 #catg .nav a {
 	border: none;
@@ -543,7 +544,7 @@ a:hover {
 	text-decoration: underline;
 }
 .more-link {
-	background: #9D4F4F;
+	background: #91003A;
 	color: #FFF !important;
 	padding: 3px;
 }
@@ -656,11 +657,11 @@ abbr[title], acronym[title], dfn[title] {
 	cursor: help;
 }
 blockquote {
-	background: #F2F2F2;
-	border-left: 4px solid #D3999D;
+	background: #F5F5EF;
+	border-left: 4px solid #638D00;
 	color: #333;
 	font-size: 12px;
-	font-style: normal;
+	font-style: italic;
 	margin-left: 15px;
 	margin-right: 25px;
 	padding: 0 10px 0 5px;
@@ -702,7 +703,7 @@ samp, var {
 	font-style: italic;
 }
 pre {
-	border: 1px solid #ddd;
+	border: 1px solid #CECDD0;
 	clear: both;
 	overflow: auto;
 	padding: 10px;
@@ -783,8 +784,7 @@ dt {
 /* Tables */
 
 table {
-	border: 1px solid #ccc;
-	border-width: 1px;
+	border: 1px solid #CECDD0;
 	line-height: 18px;
 	margin: 0 0 22px 0;
 	padding: 0 5px;
@@ -800,7 +800,7 @@ th {
 	font-weight: bold;
 }
 tr, th, td {
-	border-bottom: 1px dotted #ccc;
+	border: 1px dotted #CECDD0;
 }
 th, td {
 	padding: 5px 3px;
@@ -814,7 +814,7 @@ article input {
 }
 input, textarea, button {
 	background: #F2F2F2;
-	border-color: #aaa #ddd #ddd #aaa;
+	border-color: #B0B0AD #DED9DC #DED9DC #B0B0AD;
 	border-style: solid;
 	border-width: 1px;
 	color: #333;
@@ -872,7 +872,7 @@ input[type="submit"] {
 
 .comment {
 	background: #FFF;
-	border: 1px dotted #929292;
+	border: 1px dotted #B0B0AD;
 	padding: 20px;
 }
 .comment-content {
@@ -922,7 +922,7 @@ input[type="submit"] {
 	background: #E9B5C1;
 }
 .avatar {
-	border: 1px #C2C2C2 solid;
+	border: 1px #B0B0AD solid;
 	float: right;
 	padding: 1px;
 }
@@ -932,7 +932,7 @@ input[type="submit"] {
 	text-align: center;
 }
 .page-numbers.current {
-	border: 1px solid #C2C2C2;
+	border: 1px solid #B0B0AD;
 	padding: 0 2px;
 }
 
@@ -948,7 +948,7 @@ input[type="submit"] {
 	padding: 3px;
 }
 .form-submit input {
-	border-color: #DDD #AAA #AAA #DDD;
+	border-color: #DED9DC #B0B0AD #B0B0AD #DED9DC;
 	cursor: pointer;
 }
 .form-submit input:active {
@@ -992,7 +992,7 @@ input[type="submit"] {
 	text-align: right;
 }
 #copyright a {
-	color: #AAA;
+	color: #B0B0AD;
 }
 
 
@@ -1025,8 +1025,8 @@ img.aligncenter {
 }
 .attachment-post-thumbnail {
 	border: 1px solid #E1E1E1;
-	float: right;
-	margin: 7px 0 0 7px;
+	float: left;
+	margin: 7px 7px 0 0;
 	padding: 3px;
 }
 .size-thumbnail {
