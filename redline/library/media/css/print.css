@@ -6,14 +6,14 @@
  */
 
 /* Document Body */
-body { width: 650px; background: #fff; color: #000; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 11pt; line-height: 1.5; }
+body { width: auto; background: #fff; color: #000; font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif; font-size: 12pt; line-height: 1.5; }
 
 /* No Show - Hide various parts of the theme */
 #feedarea, #header, #navigation, #secondary, #footer, #respond, .entry-meta, .navigation-links { display: none; } 
 
 /* Anchor Element (links) */
-a:link, a:visited { background: transparent; text-decoration: underline; color: #333; }
-a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 90%; }
+a:link, a:visited { background: transparent; color: #520; font-weight: bold; text-decoration: none; }
+a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 80%; text-decoration: underline; }
 
 	/* If you're having trouble printing relative links, uncomment and customize this:
 	   (note: This is valid CSS3, but it still won't go through the W3C CSS Validator) */
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 { font-family: Helvetica, Arial, sans-serif; }
 /* Element Changes */
 blockquote { margin: 1.5em; padding: 1em; font-style: italic; font-size: 0.9em; }
 code { font: 0.9em "Courier New", Monaco, Courier, monospace; } 
-img { float: left; margin: 1.5em 1.5em 1.5em 0; }
+img { float: none !important; margin: 1.5em 1.5em 1.5em 0; }
 a img { border: none; }
 
 /* Table */

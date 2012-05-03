@@ -113,18 +113,20 @@ body, input, textarea {
 }
 #primary {
 	background: #FFF;
+	border-left: 1px solid #8D8B8C;
 	box-shadow: 0 0 4px #8D8B8C;
 	float: left;
 	padding: 10px;
 	text-align: justify;
-	width: 520px;
+	width: 519px;
 }
 #secondary {
-	background: #F5F5F2;
+	background: #F5F5F5;
+	border-right: 1px solid #8D8B8C;
 	box-shadow: 0 0 2px #8D8B8C;
 	float: right;
 	padding: 10px;
-	width: 400px;
+	width: 399px;
 }
 #footer {
 	background: #333;
@@ -209,8 +211,9 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 /*Feed Area */
 
 #feedarea {
+	background: #333;
 	clear: both;
-	color: #000;
+	color: #FFF;
 	float: right;
 	font: 11px/1.5 Helvetica, Arial, sans-serif;
 	text-align: right;
