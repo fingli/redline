@@ -1,0 +1,472 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs_CZ\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-19 22:37+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: globus2008 <globus@email.cz>\n"
+"Language-Team: globus2008 <globus@email.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+
+
+#: /404.php:15
+msgid "Error 404! Not Found"
+msgstr "Chyba 404! Nenalezeno"
+
+#: /404.php:19
+#: /archive.php:58
+#: /category.php:63
+#: /date.php:65
+#: /index.php:51
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Omlouváme se, ale hledáte něco, co zde není."
+
+#: /archive.php:13
+msgid "Archives:"
+msgstr "Archivy:"
+
+#: /archive.php:18
+#: /author.php:19
+#: /category.php:19
+#: /date.php:25
+#: /index.php:17
+#: /search.php:21
+msgid "Permanent Link to"
+msgstr "Trvalý odkaz na"
+
+#: /archive.php:22
+#: /attachment.php:21
+#: /author.php:23
+#: /category.php:23
+#: /date.php:29
+#: /search.php:25
+msgid "Written by"
+msgstr "Zapsal"
+
+# [%s] is the name of the author
+#: /archive.php:22
+#: /attachment.php:21
+#: /author.php:23
+#: /category.php:23
+#: /date.php:29
+#: /index.php:22
+#: /search.php:25
+#, php-format
+msgid "View all posts by %s"
+msgstr "Zobrazit všechny příspěvky od %s"
+
+#: /archive.php:23
+#: /attachment.php:22
+#: /author.php:24
+#: /category.php:24
+#: /date.php:30
+msgid "on"
+msgstr ", "
+
+#: /archive.php:25
+#: /attachment.php:24
+#: /author.php:26
+#: /category.php:26
+#: /date.php:32
+#: /index.php:36
+#: /search.php:28
+msgid "Leave a Comment"
+msgstr "Vložit komentář"
+
+#: /archive.php:25
+#: /attachment.php:24
+#: /author.php:26
+#: /category.php:26
+#: /date.php:32
+#: /index.php:36
+#: /search.php:28
+msgid "1 Comment"
+msgstr "1 komentář"
+
+#: /archive.php:25
+#: /attachment.php:24
+#: /author.php:26
+#: /category.php:26
+#: /date.php:32
+#: /index.php:36
+#: /search.php:28
+msgid "% Comments"
+msgstr "% komentářů"
+
+#: /archive.php:26
+#: /author.php:27
+#: /category.php:27
+#: /date.php:33
+#: /index.php:23
+#: /page.php:21
+#: /search.php:29
+msgid "edit"
+msgstr "editovat"
+
+#: /archive.php:38
+#: /author.php:39
+#: /date.php:45
+#: /index.php:34
+#: /search.php:41
+msgid "Posted in"
+msgstr "Odesláno do"
+
+#: /archive.php:41
+#: /author.php:42
+#: /category.php:46
+#: /date.php:48
+#: /search.php:44
+msgid "Tagged"
+msgstr "Se štítkem"
+
+#: /archive.php:54
+#: /attachment.php:46
+#: /author.php:55
+#: /category.php:59
+#: /date.php:61
+#: /index.php:47
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#: /attachment.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Omlouváme se, ale žádná z příloh nevyhovuje zadaným kritériím"
+
+#: /author.php:14
+msgid "Author Archives:"
+msgstr "Archiv autora:"
+
+#: /author.php:59
+msgid "Sorry, but"
+msgstr "Omlouváme se, ale"
+
+#: /author.php:59
+msgid "hasn't posted anything yet."
+msgstr "nevložil žádný příspěvek."
+
+#: /category.php:14
+msgid "Category Archives:"
+msgstr "Archiv obcí:"
+
+#: /category.php:40
+msgid "Also posted in"
+msgstr "Publikováno také "
+
+#: /comments.php:14
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Tento příspěvek je chráněn heslem. Vložte heslo a zobrazí se vám komentáře."
+
+#: /comments.php:28
+msgid "Older Comments"
+msgstr "Starší komentáře"
+
+#: /comments.php:29
+msgid "Newer Comments"
+msgstr "Novější komentáře"
+
+#: /comments.php:61
+msgid "Comments are closed."
+msgstr "Není možné vložit komentář."
+
+#: /comments.php:71
+msgid "Leave a Reply"
+msgstr "Okomentovat"
+
+#: /comments.php:72
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Okomentovat %s"
+
+#: /comments.php:73
+msgid "Cancel reply"
+msgstr "Zrušit odpověď"
+
+#: /comments.php:74
+msgid "Post Comment"
+msgstr "Odeslat komentář"
+
+#: /date.php:15
+msgid "Daily Archives:"
+msgstr "Denní archivy:"
+
+# Archive date format
+#: /date.php:15
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: /date.php:17
+msgid "Monthly Archives:"
+msgstr "Měsíční archivy::"
+
+#: /date.php:19
+msgid "Yearly Archives:"
+msgstr "Roční archivy:"
+
+#: /header.php:41
+msgid "l, j F Y - G:i"
+msgstr "l, j F Y - G:i"
+
+#: /header.php:42
+msgid "Publications"
+msgstr "Publikace"
+
+#: /header.php:43
+msgid "Comments"
+msgstr "Komentáře"
+
+#: /index.php:21
+msgid "Author:"
+msgstr "Autor:"
+
+#: /index.php:28
+msgid "Read more"
+msgstr "zobrazit více"
+
+#: /index.php:29
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: /navigation.php:18
+msgid "Older Entries"
+msgstr "Starší příspěvky"
+
+#: /navigation.php:19
+msgid "Newer Entries"
+msgstr "Novější příspěvky"
+
+#: /search.php:13
+msgid "Search Results for:"
+msgstr "Výsledky hledání:"
+
+#: /search.php:59
+msgid "Your search for"
+msgstr "Vaše hledání - "
+
+#: /search.php:59
+msgid "did not match any entries"
+msgstr "nebyla nalezena shoda"
+
+#: /search.php:63
+msgid "Suggestions:"
+msgstr "Návrhy:"
+
+#: /search.php:65
+msgid "Make sure all words are spelled correctly."
+msgstr "Ujistěte se, že všechna slova byla v pořádku napsaná."
+
+#: /search.php:66
+msgid "Try different keywords."
+msgstr "Zkuste rozdílná hesla."
+
+#: /search.php:67
+msgid "Try more general keywords."
+msgstr "Zkuste více klíčových hesel."
+
+#: /searchform.php:11
+msgid "Search"
+msgstr "Vyhledat"
+
+#: /sidebar-left.php:13
+msgid "Pages"
+msgstr "Stránky"
+
+#: /sidebar-right.php:12
+msgid "Site admin"
+msgstr "Administrátor stránek"
+
+#: /sidebar-top.php:12
+msgid "Tags"
+msgstr "Štítky"
+
+#: /tag.php:13
+msgid "Tag Archives:"
+msgstr "Archiv štítků:"
+
+#: /tag.php:41
+msgid "Also tagged"
+msgstr "Také oštítkováno"
+
+#: /library/extensions/semantic-classes.php:42
+#: /library/extensions/semantic-classes.php:47
+msgid "Archives for"
+msgstr "Archiv pro"
+
+#: /library/extensions/semantic-classes.php:52
+msgid "Search Results"
+msgstr "Výsledky hledání"
+
+#: /library/extensions/semantic-classes.php:57
+msgid "Error 404!"
+msgstr "Chyba 404!"
+
+#: /library/functions/comments.php:18
+msgid "Name"
+msgstr "Jméno"
+
+#: /library/functions/comments.php:18
+#: /library/functions/comments.php:21
+msgid "(required)"
+msgstr "(vyžadováno)"
+
+#: /library/functions/comments.php:21
+msgid "Email"
+msgstr "email"
+
+#: /library/functions/comments.php:24
+msgid "Website"
+msgstr "web stránka"
+
+#: /library/functions/comments.php:46
+msgid "No Comments yet"
+msgstr "Zatím bez komentáře"
+
+#: /library/functions/comments.php:51
+msgid "% Trackbacks"
+msgstr "% Trackbacks"
+
+#: /library/functions/comments.php:53
+msgid "1 Trackback"
+msgstr "1 Trackback"
+
+# Put [space] before and after " to "
+# The sentence is: A trackback to {title of the article}
+#: /library/functions/comments.php:70
+msgid " to "
+msgstr " k"
+
+#: /library/functions/comments.php:88
+msgid "You can follow all the replies to this entry through the"
+msgstr "Můžete sledovat všechny odpovědi k tomuto příspěvku přes"
+
+#: /library/functions/comments.php:88
+msgid "comments feed"
+msgstr "odběr komentářů"
+
+#: /library/functions/comments.php:226
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na schválení."
+
+# Put [space] after "By "
+# The whole sentence is: By {author} on {date} at {time}.
+#: /library/functions/comments.php:270
+msgid "By "
+msgstr "Od "
+
+# Put [space] before and after " on "
+# The whole sentence is: By {author} on {date} at {time}.
+#: /library/functions/comments.php:271
+msgid " on "
+msgstr "-"
+
+# Put [space] before and after " at "
+# The whole sentence is: By {author} on {date} at {time}.
+#: /library/functions/comments.php:272
+msgid " at "
+msgstr "-"
+
+#: /library/functions/comments.php:274
+msgid "Your trackback is awaiting moderation."
+msgstr "Váš trackback čeká na schválení."
+
+#: /library/functions/functions.php:27
+msgid "Primary Menu"
+msgstr "Hlavní menu"
+
+#: /library/functions/functions.php:28
+msgid "Secondary Menu"
+msgstr "Vedlejší menu"
+
+#: /library/functions/pluggable.php:20
+msgid "leave a comment"
+msgstr "vložte komentář"
+
+#: /library/functions/pluggable.php:20
+msgid "comment"
+msgstr "komentář"
+
+#: /library/functions/pluggable.php:20
+msgid "comments"
+msgstr "komentáře"
+
+#: /library/functions/pluggable.php:20
+msgid "comments closed"
+msgstr "vkládání komentářů není povoleno"
+
+#: /library/functions/pluggable.php:118
+msgid "Permalink to this comment"
+msgstr "Trvalý odkaz na tento komentář"
+
+#: /library/functions/pluggable.php:119
+msgid "Permalink"
+msgstr "trvalý odkaz"
+
+#: /library/functions/pluggable.php:147
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: /library/functions/pluggable.php:148
+msgid "Log in to reply."
+msgstr "Přihlašte se a odpovězte."
+
+#: /library/functions/widgets.php:15
+msgid "Top Widget Area"
+msgstr "Horní Widget plocha"
+
+#: /library/functions/widgets.php:16
+msgid "Top widget area"
+msgstr "Horní widget plocha"
+
+#: /library/functions/widgets.php:26
+msgid "Left Widget Area"
+msgstr "Levá Widget plocha"
+
+#: /library/functions/widgets.php:27
+msgid "The left widget area"
+msgstr "Levá widget plocha"
+
+#: /library/functions/widgets.php:37
+msgid "Right Widget Area"
+msgstr "Pravá Widget plocha"
+
+#: /library/functions/widgets.php:38
+msgid "The right widget area"
+msgstr "Pravá widget plocha"
+
+#: /library/functions/widgets.php:49
+msgid "First Footer Widget Area"
+msgstr "První Widget plocha v zápatí"
+
+#: /library/functions/widgets.php:50
+msgid "The first footer widget area"
+msgstr "První widget plocha v zápatí"
+
+#: /library/functions/widgets.php:60
+msgid "Second Footer Widget Area"
+msgstr "Druhá Widget plocha v zápatí"
+
+#: /library/functions/widgets.php:61
+msgid "The second footer widget area"
+msgstr "Druhá widget plocha v zápatí"
+
+#: /library/functions/widgets.php:71
+msgid "Third Footer Widget Area"
+msgstr "Třetí Widget plocha v zápatí"
+
+#: /library/functions/widgets.php:72
+msgid "The third footer widget area"
+msgstr "Třetí widget plocha v zápatí"
+
+#: /library/functions/widgets.php:82
+msgid "Fourth Footer Widget Area"
+msgstr "Čtvrtá Widget plocha v zápatí"
+
+#: /library/functions/widgets.php:83
+msgid "The fourth footer widget area"
+msgstr "Čtvrtá widget plocha v zápatí"
+
