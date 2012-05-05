@@ -1,19 +1,19 @@
 /**
  * Print - Makes the layout Print Friendly
  *
- * @package WPFramework
+ * @package RedLine 2.1
  * @subpackage Media
  */
 
 /* Document Body */
-body { width: auto; background: #fff; color: #000; font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif; font-size: 12pt; line-height: 1.5; }
+body { width: auto; background: #fff; color: #000; font-family: Constantia, Palatino, "Palatino Linotype", "Book Antiqua", serif; font-size: 12pt; line-height: 1.5; }
 
 /* No Show - Hide various parts of the theme */
-#feedarea, #header, #navigation, #secondary, #footer, #respond, .entry-meta, .navigation-links { display: none; } 
+#feedarea, #header, #navigation, #secondary, #footer, #respond, .entry-meta, .navigation-links, .comment-reply { display: none; } 
 
 /* Anchor Element (links) */
 a:link, a:visited { background: transparent; color: #520; font-weight: bold; text-decoration: none; }
-a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 80%; text-decoration: underline; }
+a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 80%; }
 
 	/* If you're having trouble printing relative links, uncomment and customize this:
 	   (note: This is valid CSS3, but it still won't go through the W3C CSS Validator) */
@@ -23,11 +23,11 @@ a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 80%; t
 	} */
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 { font-family: Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: Calibri, Helvetica, Arial, sans-serif; }
  
 /* Element Changes */
 blockquote { margin: 1.5em; padding: 1em; font-style: italic; font-size: 0.9em; }
-code { font: 0.9em "Courier New", Monaco, Courier, monospace; } 
+code { font: 0.9em Consolas, "Courier New", Monaco, Courier, monospace; } 
 img { float: none !important; margin: 1.5em 1.5em 1.5em 0; }
 a img { border: none; }
 

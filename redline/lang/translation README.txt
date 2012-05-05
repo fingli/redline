@@ -10,12 +10,15 @@ All translations are distributed under GPL.
 ---------------------------------
 ## en_US English        default language
 
+# cs_CZ Czech           Tomas Vesely - www.pametiobce.cz
 
-# be_BY Belarusian      Alexander Ovsov - http://webhostinggeeks.com/science/
+# ro_RO Romanian        Web Hosting Geeks - webhostinggeeks.com
+
+# be_BY Belarusian      Alexander Ovsov - webhostinggeeks.com/science
 
 # sv_SE Swedish         Fredrik Arvidsson - www.fredrikarvidsson.com
 
-# vi    Vietnamese      Potato - www.mabinhluan.thekyokai.info
+# vi_VI Vietnamese      Potato - www.mabinhluan.thekyokai.info
 
 # it_IT Italian         Carlo Galici - www.viagginewyork.it
 
