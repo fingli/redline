@@ -95,7 +95,7 @@ a img {
 /* Document Body */
 
 body, input, textarea {
-	background: #FFFAFA;
+	background: #C0C0C0;
 	color: #333;
 	font: 0.81em/1.62 Georgia, "Times New Roman", Times, serif;
 }
@@ -209,9 +209,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 /*Feed Area */
 
 #feedarea {
-	background: #333;
 	clear: both;
-	color: #FFF;
+	color: #111;
 	float: right;
 	font: 11px/1.5 Helvetica, Arial, sans-serif;
 	text-align: right;
@@ -279,7 +278,6 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 /* Pages Navigation */
 
 #topmenu {
-	background: #F5F5F2;
 	height: 24px;
 	width: 100%;
 }
@@ -297,7 +295,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 .nav {
 	color: #111;
 	float: left;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: "Franklin Gothic Medium", Verdana, Geneva, sans-serif;
 	width: 100%;
 }
 .nav, .nav * {
