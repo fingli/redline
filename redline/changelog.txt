@@ -1,6 +1,18 @@
-+-+-+-+-+-+-+-+-+-+  
-|C|h|a|n|g|e|l|o|g| 
-+-+-+-+-+-+-+-+-+-+ 
++-+-+-+-+-+-+-+-+-+
+|C|h|a|n|g|e|l|o|g|
++-+-+-+-+-+-+-+-+-+
+
+v. 2.1.0 - May 2012
+
+ - Added Romanian translation
+ - Added Czech translation
+ - Removed custom favicon from package
+ - Made the theme very printer-friendly
+ - Sanitized output of home_url
+ - Removed search box from header
+ - JavsScript files are not minified, for better human readability
+ - Some CSS changes
+ - Other minor improvements
 
 v. 2.0.0 - February 2012
 

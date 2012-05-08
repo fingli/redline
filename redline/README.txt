@@ -7,8 +7,8 @@
 
 ################ RedLine ################
 #                                       #
-# Version:                              #
-# Release:                              #
+# Version:  2.1.0                       #
+# Release:  May 2012                    #
 # Author:   Yulian Yordanov             #
 # Web-site: http://post-scriptum.info   #
 #                                       #
