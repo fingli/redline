@@ -15,7 +15,7 @@
 	define( 'HEADER_TEXTCOLOR', 'FFFFFF' );
 	define( 'HEADER_IMAGE', '%s/library/media/images/header.jpg' );
 
-	if ( ! isset( $content_width ) ) $content_width = 510; // set the global width of the media content
+	if ( ! isset( $content_width ) ) $content_width = 520; // set the global width of the media content
 
 	set_post_thumbnail_size( 150, 150 ); // 150 pixels wide by 150 pixels tall, box resize mode
 	

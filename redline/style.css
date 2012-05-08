@@ -113,18 +113,18 @@ body, input, textarea {
 }
 #primary {
 	background: #FFF;
-	box-shadow: 0 0 4px #BCB8BA;
+	box-shadow: 0 0 4px #333;
 	float: left;
-	padding: 10px;
+	padding: 10px 5px;
 	text-align: justify;
-	width: 520px;
+	width: 530px;
 }
 #secondary {
 	background: #F5F5F5;
 	box-shadow: 0 0 4px #BCB8BA;
 	float: right;
-	padding: 10px;
-	width: 400px;
+	padding: 10px 5px;
+	width: 405px;
 }
 #footer {
 	background: #333;
@@ -146,13 +146,11 @@ body, input, textarea {
 }
 #sidebar_left {
 	float: left;
-	width: 195px;
+	width: 200px;
 }
 #sidebar_right {
-	border-left: 1px dotted #B0B0AD;
 	float: right;
-	padding-left: 5px;
-	width: 195px;
+	width: 200px;
 }
 #footer-widget-area {
 	font-size: 12px;
@@ -295,7 +293,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 .nav {
 	color: #111;
 	float: left;
-	font-family: "Franklin Gothic Medium", Verdana, Geneva, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	width: 100%;
 }
 .nav, .nav * {
@@ -553,7 +551,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: "Palatino Linotype", Palatino, serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 h1 {
@@ -882,8 +880,7 @@ input[type="submit"] {
 	list-style: none;
 }
 .comment-list {
-	margin-left: 0;
-	padding: 0;
+	margin: 0 10px;
 	text-align: left;
 }
 .comment-list li {
@@ -939,7 +936,7 @@ input[type="submit"] {
 /* Comment Reply */
 
 #respond {
-	margin-left: 5px;
+	margin: 10px;
 }
 .comment-reply a {
 	background: #3F7E3F !important;
