@@ -10,6 +10,8 @@ All translations are distributed under GPL.
 ---------------------------------
 ## en_US English        default language
 
+# fil-PH Filipino       Morten Elm - www.KolonihaverTilSalg.dk
+
 # cs_CZ Czech           Tomas Vesely - www.pametiobce.cz
 
 # ro_RO Romanian        Web Hosting Geeks - webhostinggeeks.com
