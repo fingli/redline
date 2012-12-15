@@ -9,11 +9,22 @@
  * @subpackage Functions
  */
  
-	// The height and width of your custom header
-	define( 'HEADER_IMAGE_HEIGHT', 85 );
-	define( 'HEADER_IMAGE_WIDTH', 960 );
-	define( 'HEADER_TEXTCOLOR', 'FFFFFF' );
-	define( 'HEADER_IMAGE', '%s/library/media/images/header.jpg' );
+	// default header style
+	$header_defaults = array(
+	'default-image'          =>  get_template_directory_uri() .'/library/media/images/header.jpg',
+	'random-default'         => false,
+	'width'                  => 960,
+	'height'                 => 85,
+	'flex-height'            => false,
+	'flex-width'             => false,
+	'default-text-color'     => 'FFF',
+	'header-text'            => true,
+	'uploads'                => true,
+	'wp-head-callback'       => 'header_style',
+	'admin-head-callback'    => 'admin_header_style',
+	'admin-preview-callback' => '',
+);
+	add_theme_support( 'custom-header', $header_defaults ); // custom header
 
 	if ( ! isset( $content_width ) ) $content_width = 520; // set the global width of the media content
 
