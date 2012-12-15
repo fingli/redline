@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js" >
+<!--[if IE 6 ]>    <html class="no-js ie6" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" <?php language_attributes(); ?>> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
