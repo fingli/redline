@@ -2,7 +2,7 @@
 Theme Name:		RedLine
 Theme URI:		http://post-scriptum.info/redline-theme/
 Version:		2.1.0
-Description:	A lightweight but powerful WordPress theme built on WP Framework. It has very printer-friendly layout and other features like microformats, a traditional template structure, clean semantic code and atomic template system. RedLine includes custom menus, changeable header and background. The theme has 7 widgetized areas (3 in sidebars and 4 in footer) and supports diferent post formats. Moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> (<a href="http://www.access-board.gov/sec508/standards.htm">Section 508</a>) standards. Currently RedLine is available in English (default), Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese, Swedish, Belarusian, Romanian and Czech languages.
+Description:	A lightweight but powerful WordPress theme built on WP Framework. It has very printer-friendly layout and other features like microformats, a traditional template structure, clean semantic code and atomic template system. RedLine includes custom menus, changeable header and background. The theme has 7 widgetized areas (3 in sidebars and 4 in footer) and supports diferent post formats. Moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> (<a href="http://www.section508.gov/">Section 508</a>) standards. Currently RedLine is available in English (default), Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese, Swedish, Belarusian, Romanian and Czech languages.
 Author: 		Yulian Yordanov
 Author URI:		http://post-scriptum.info/
 Tags:			light, white, red, two-columns, three-columns, right-sidebar, custom-header, custom-background, custom-menu, fixed-width, sticky-post, threaded-comments, microformats, post-formats, translation-ready
@@ -95,7 +95,7 @@ a img {
 /* Document Body */
 
 body, input, textarea {
-	background: #C0C0C0;
+	background: #FFF;
 	color: #333;
 	font: 0.81em/1.62 Georgia, "Times New Roman", Times, serif;
 }
@@ -117,7 +117,7 @@ body, input, textarea {
 	float: left;
 	padding: 10px 5px;
 	text-align: justify;
-	width: 530px;
+	width: 533px;
 }
 #secondary {
 	background: #F5F5F5;
@@ -293,7 +293,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 .nav {
 	color: #111;
 	float: left;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
 	width: 100%;
 }
 .nav, .nav * {
@@ -551,7 +551,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 h1 {
@@ -618,7 +618,7 @@ h6 {
 }
 .entry-title {
 	color: #333;
-	font-family: "Franklin Gothic Medium", "Arial Black", sans-serif;
+	font-family: "Arial Black", sans-serif;
 	font-size: 2em;
 	letter-spacing: -1px;
 	line-height: 1em;
