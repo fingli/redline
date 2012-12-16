@@ -212,7 +212,11 @@ function include_all( $path, $ignore = false ) {
 function header_style() {
 ?>
 <style type="text/css">
-#logo { background: #fff url(<?php header_image(); ?>) bottom center no-repeat;}
+#logo {
+background: #fff url(<?php header_image(); ?>) bottom center no-repeat;
+height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
+width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
+}
 	<?php
 		//  Has the text been hidden?
 		//  If so, set display to equal none
