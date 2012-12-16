@@ -32,7 +32,6 @@
 	
 	load_theme_textdomain( 'redline' , TEMPLATEPATH . '/lang' ); // load localization files
 
-	add_editor_style();
 	
 	/* Blast you red baron! Initialise WP Framework */
 
