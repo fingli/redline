@@ -2,6 +2,19 @@
 |C|h|a|n|g|e|l|o|g|
 +-+-+-+-+-+-+-+-+-+
 
+v. 2.5.0 - December 2012
+
+ - Added Filipino language
+ - Added correct header for IE
+ - Fixed custom-header support
+ - Fixed custom-background support
+ - New version of Modernizr
+ - Changed the height of header image
+ - New image used as default header
+ - Added picture in top-widget area
+ - Updated translation files
+ - Other CSS and code improvements
+
 v. 2.1.0 - May 2012
 
  - Added Romanian translation
