@@ -2,469 +2,494 @@ msgid ""
 msgstr ""
 "Project-Id-Version: redline\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-02-19 22:37+0200\n"
+"POT-Creation-Date: 2012-12-17 20:09+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: yulian yordanov <yul.yordanov@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Users\\yulian\\Documents\\GitHub\\redline"
+"\\redline\n"
 
-
-#: redline/404.php:15
+#: C:\Users\yulian\Documents\GitHub\redline\redline/404.php:15
 msgid "Error 404! Not Found"
 msgstr ""
 
-#: redline/404.php:19
-#: redline/archive.php:58
-#: redline/category.php:63
-#: redline/date.php:65
-#: redline/index.php:51
+#: C:\Users\yulian\Documents\GitHub\redline\redline/404.php:19
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:58
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:63
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:65
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:51
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:59
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:58
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr ""
 
-#: redline/archive.php:13
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:13
 msgid "Archives:"
 msgstr ""
 
-#: redline/archive.php:18
-#: redline/author.php:19
-#: redline/category.php:19
-#: redline/date.php:25
-#: redline/index.php:17
-#: redline/search.php:21
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:18
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:19
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:19
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:25
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:17
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:21
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:20
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:18
 msgid "Permanent Link to"
 msgstr ""
 
-#: redline/archive.php:22
-#: redline/attachment.php:21
-#: redline/author.php:23
-#: redline/category.php:23
-#: redline/date.php:29
-#: redline/search.php:25
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:22
+#: C:\Users\yulian\Documents\GitHub\redline\redline/attachment.php:21
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:23
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:23
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:29
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:22
 msgid "Written by"
 msgstr ""
 
 # [%s] is the name of the author
-#: redline/archive.php:22
-#: redline/attachment.php:21
-#: redline/author.php:23
-#: redline/category.php:23
-#: redline/date.php:29
-#: redline/index.php:22
-#: redline/search.php:25
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:22
+#: C:\Users\yulian\Documents\GitHub\redline\redline/attachment.php:21
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:23
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:23
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:29
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:22
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:22
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:22
 #, php-format
 msgid "View all posts by %s"
 msgstr ""
 
-#: redline/archive.php:23
-#: redline/attachment.php:22
-#: redline/author.php:24
-#: redline/category.php:24
-#: redline/date.php:30
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:23
+#: C:\Users\yulian\Documents\GitHub\redline\redline/attachment.php:22
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:30
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:23
 msgid "on"
 msgstr ""
 
-#: redline/archive.php:25
-#: redline/attachment.php:24
-#: redline/author.php:26
-#: redline/category.php:26
-#: redline/date.php:32
-#: redline/index.php:36
-#: redline/search.php:28
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:25
+#: C:\Users\yulian\Documents\GitHub\redline\redline/attachment.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:32
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:36
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:27
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:25
 msgid "Leave a Comment"
 msgstr ""
 
-#: redline/archive.php:25
-#: redline/attachment.php:24
-#: redline/author.php:26
-#: redline/category.php:26
-#: redline/date.php:32
-#: redline/index.php:36
-#: redline/search.php:28
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:25
+#: C:\Users\yulian\Documents\GitHub\redline\redline/attachment.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:32
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:36
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:27
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:25
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:47
 msgid "1 Comment"
 msgstr ""
 
-#: redline/archive.php:25
-#: redline/attachment.php:24
-#: redline/author.php:26
-#: redline/category.php:26
-#: redline/date.php:32
-#: redline/index.php:36
-#: redline/search.php:28
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:25
+#: C:\Users\yulian\Documents\GitHub\redline\redline/attachment.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:32
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:36
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:27
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:25
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:45
 msgid "% Comments"
 msgstr ""
 
-#: redline/archive.php:26
-#: redline/author.php:27
-#: redline/category.php:27
-#: redline/date.php:33
-#: redline/index.php:23
-#: redline/page.php:21
-#: redline/search.php:29
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:27
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:27
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:33
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:23
+#: C:\Users\yulian\Documents\GitHub\redline\redline/page.php:21
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:28
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:27
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:133
 msgid "edit"
 msgstr ""
 
-#: redline/archive.php:38
-#: redline/author.php:39
-#: redline/date.php:45
-#: redline/index.php:34
-#: redline/search.php:41
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:38
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:39
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:45
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:34
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:40
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:38
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:38
 msgid "Posted in"
 msgstr ""
 
-#: redline/archive.php:41
-#: redline/author.php:42
-#: redline/category.php:46
-#: redline/date.php:48
-#: redline/search.php:44
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:41
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:42
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:46
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:48
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:43
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:41
 msgid "Tagged"
 msgstr ""
 
-#: redline/archive.php:54
-#: redline/attachment.php:46
-#: redline/author.php:55
-#: redline/category.php:59
-#: redline/date.php:61
-#: redline/index.php:47
+#: C:\Users\yulian\Documents\GitHub\redline\redline/archive.php:54
+#: C:\Users\yulian\Documents\GitHub\redline\redline/attachment.php:46
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:55
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:59
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:61
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:47
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:55
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:54
 msgid "Not Found"
 msgstr ""
 
-#: redline/attachment.php:50
+#: C:\Users\yulian\Documents\GitHub\redline\redline/attachment.php:50
 msgid "Sorry, no attachments matched your criteria."
 msgstr ""
 
-#: redline/author.php:14
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:14
 msgid "Author Archives:"
 msgstr ""
 
-#: redline/author.php:59
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:59
 msgid "Sorry, but"
 msgstr ""
 
-#: redline/author.php:59
+#: C:\Users\yulian\Documents\GitHub\redline\redline/author.php:59
 msgid "hasn't posted anything yet."
 msgstr ""
 
-#: redline/category.php:14
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:14
 msgid "Category Archives:"
 msgstr ""
 
-#: redline/category.php:40
+#: C:\Users\yulian\Documents\GitHub\redline\redline/category.php:40
 msgid "Also posted in"
 msgstr ""
 
-#: redline/comments.php:14
+#: C:\Users\yulian\Documents\GitHub\redline\redline/comments.php:14
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 
-#: redline/comments.php:28
+#: C:\Users\yulian\Documents\GitHub\redline\redline/comments.php:28
 msgid "Older Comments"
 msgstr ""
 
-#: redline/comments.php:29
+#: C:\Users\yulian\Documents\GitHub\redline\redline/comments.php:29
 msgid "Newer Comments"
 msgstr ""
 
-#: redline/comments.php:61
+#: C:\Users\yulian\Documents\GitHub\redline\redline/comments.php:50
 msgid "Comments are closed."
 msgstr ""
 
-#: redline/comments.php:71
+#: C:\Users\yulian\Documents\GitHub\redline\redline/comments.php:60
 msgid "Leave a Reply"
 msgstr ""
 
-#: redline/comments.php:72
+#: C:\Users\yulian\Documents\GitHub\redline\redline/comments.php:61
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr ""
 
-#: redline/comments.php:73
+#: C:\Users\yulian\Documents\GitHub\redline\redline/comments.php:62
 msgid "Cancel reply"
 msgstr ""
 
-#: redline/comments.php:74
+#: C:\Users\yulian\Documents\GitHub\redline\redline/comments.php:63
 msgid "Post Comment"
 msgstr ""
 
-#: redline/date.php:15
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:15
 msgid "Daily Archives:"
 msgstr ""
 
 # Archive date format
-#: redline/date.php:15
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:15
 msgid "F jS, Y"
 msgstr ""
 
-#: redline/date.php:17
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:17
 msgid "Monthly Archives:"
 msgstr ""
 
-#: redline/date.php:19
+#: C:\Users\yulian\Documents\GitHub\redline\redline/date.php:19
 msgid "Yearly Archives:"
 msgstr ""
 
-#: redline/header.php:41
+#: C:\Users\yulian\Documents\GitHub\redline\redline/header.php:41
 msgid "l, j F Y - G:i"
 msgstr ""
 
-#: redline/header.php:42
-msgid "Publications"
-msgstr ""
-
-#: redline/header.php:43
-msgid "Comments"
-msgstr ""
-
-#: redline/index.php:21
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:21
 msgid "Author:"
 msgstr ""
 
-#: redline/index.php:28
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:28
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:32
 msgid "Read more"
 msgstr ""
 
-#: redline/index.php:29
+#: C:\Users\yulian\Documents\GitHub\redline\redline/index.php:29
+#: C:\Users\yulian\Documents\GitHub\redline\redline/single.php:33
 msgid "Pages:"
 msgstr ""
 
-#: redline/navigation.php:18
+#: C:\Users\yulian\Documents\GitHub\redline\redline/navigation.php:18
 msgid "Older Entries"
 msgstr ""
 
-#: redline/navigation.php:19
+#: C:\Users\yulian\Documents\GitHub\redline\redline/navigation.php:19
 msgid "Newer Entries"
 msgstr ""
 
-#: redline/search.php:13
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:13
 msgid "Search Results for:"
 msgstr ""
 
-#: redline/search.php:59
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:58
 msgid "Your search for"
 msgstr ""
 
-#: redline/search.php:59
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:58
 msgid "did not match any entries"
 msgstr ""
 
-#: redline/search.php:63
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:62
 msgid "Suggestions:"
 msgstr ""
 
-#: redline/search.php:65
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:64
 msgid "Make sure all words are spelled correctly."
 msgstr ""
 
-#: redline/search.php:66
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:65
 msgid "Try different keywords."
 msgstr ""
 
-#: redline/search.php:67
+#: C:\Users\yulian\Documents\GitHub\redline\redline/search.php:66
 msgid "Try more general keywords."
 msgstr ""
 
-#: redline/searchform.php:11
+#: C:\Users\yulian\Documents\GitHub\redline\redline/searchform.php:11
 msgid "Search"
 msgstr ""
 
-#: redline/sidebar-left.php:13
+#: C:\Users\yulian\Documents\GitHub\redline\redline/sidebar-left.php:13
 msgid "Pages"
 msgstr ""
 
-#: redline/sidebar-right.php:12
+#: C:\Users\yulian\Documents\GitHub\redline\redline/sidebar-right.php:12
 msgid "Site admin"
 msgstr ""
 
-#: redline/sidebar-top.php:12
+#: C:\Users\yulian\Documents\GitHub\redline\redline/sidebar-top.php:12
+msgid "Picture"
+msgstr ""
+
+#: C:\Users\yulian\Documents\GitHub\redline\redline/sidebar-top.php:19
 msgid "Tags"
 msgstr ""
 
-#: redline/tag.php:13
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:13
 msgid "Tag Archives:"
 msgstr ""
 
-#: redline/tag.php:41
+#: C:\Users\yulian\Documents\GitHub\redline\redline/tag.php:41
 msgid "Also tagged"
 msgstr ""
 
-#: redline/library/extensions/semantic-classes.php:42
-#: redline/library/extensions/semantic-classes.php:47
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/extensions/semantic-classes.php:42
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/extensions/semantic-classes.php:47
 msgid "Archives for"
 msgstr ""
 
-#: redline/library/extensions/semantic-classes.php:52
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/extensions/semantic-classes.php:52
 msgid "Search Results"
 msgstr ""
 
-#: redline/library/extensions/semantic-classes.php:57
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/extensions/semantic-classes.php:57
 msgid "Error 404!"
 msgstr ""
 
-#: redline/library/functions/comments.php:18
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:18
 msgid "Name"
 msgstr ""
 
-#: redline/library/functions/comments.php:18
-#: redline/library/functions/comments.php:21
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:18
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:21
 msgid "(required)"
 msgstr ""
 
-#: redline/library/functions/comments.php:21
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:21
 msgid "Email"
 msgstr ""
 
-#: redline/library/functions/comments.php:24
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:24
 msgid "Website"
 msgstr ""
 
-#: redline/library/functions/comments.php:46
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:46
 msgid "No Comments yet"
 msgstr ""
 
-#: redline/library/functions/comments.php:51
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:51
 msgid "% Trackbacks"
 msgstr ""
 
-#: redline/library/functions/comments.php:53
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:53
 msgid "1 Trackback"
 msgstr ""
 
 # Put [space] before and after " to "
 # The sentence is: A trackback to {title of the article}
-#: redline/library/functions/comments.php:70
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:70
 msgid " to "
 msgstr ""
 
-#: redline/library/functions/comments.php:88
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:88
 msgid "You can follow all the replies to this entry through the"
 msgstr ""
 
-#: redline/library/functions/comments.php:88
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:88
 msgid "comments feed"
 msgstr ""
 
-#: redline/library/functions/comments.php:226
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:226
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
 # Put [space] after "By "
 # The whole sentence is: By {author} on {date} at {time}.
-#: redline/library/functions/comments.php:270
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:270
 msgid "By "
 msgstr ""
 
 # Put [space] before and after " on "
 # The whole sentence is: By {author} on {date} at {time}.
-#: redline/library/functions/comments.php:271
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:271
 msgid " on "
 msgstr ""
 
 # Put [space] before and after " at "
 # The whole sentence is: By {author} on {date} at {time}.
-#: redline/library/functions/comments.php:272
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:272
 msgid " at "
 msgstr ""
 
-#: redline/library/functions/comments.php:274
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/comments.php:274
 msgid "Your trackback is awaiting moderation."
 msgstr ""
 
-#: redline/library/functions/functions.php:27
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/functions.php:27
 msgid "Primary Menu"
 msgstr ""
 
-#: redline/library/functions/functions.php:28
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/functions.php:28
 msgid "Secondary Menu"
 msgstr ""
 
-#: redline/library/functions/pluggable.php:20
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:20
 msgid "leave a comment"
 msgstr ""
 
-#: redline/library/functions/pluggable.php:20
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:20
 msgid "comment"
 msgstr ""
 
-#: redline/library/functions/pluggable.php:20
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:20
 msgid "comments"
 msgstr ""
 
-#: redline/library/functions/pluggable.php:20
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:20
 msgid "comments closed"
 msgstr ""
 
-#: redline/library/functions/pluggable.php:118
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:118
 msgid "Permalink to this comment"
 msgstr ""
 
-#: redline/library/functions/pluggable.php:119
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:119
 msgid "Permalink"
 msgstr ""
 
-#: redline/library/functions/pluggable.php:147
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:147
 msgid "Reply"
 msgstr ""
 
-#: redline/library/functions/pluggable.php:148
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/pluggable.php:148
 msgid "Log in to reply."
 msgstr ""
 
-#: redline/library/functions/widgets.php:15
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:15
 msgid "Top Widget Area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:16
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:16
 msgid "Top widget area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:26
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:26
 msgid "Left Widget Area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:27
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:27
 msgid "The left widget area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:37
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:37
 msgid "Right Widget Area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:38
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:38
 msgid "The right widget area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:49
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:49
 msgid "First Footer Widget Area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:50
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:50
 msgid "The first footer widget area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:60
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:60
 msgid "Second Footer Widget Area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:61
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:61
 msgid "The second footer widget area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:71
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:71
 msgid "Third Footer Widget Area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:72
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:72
 msgid "The third footer widget area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:82
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:82
 msgid "Fourth Footer Widget Area"
 msgstr ""
 
-#: redline/library/functions/widgets.php:83
+#: C:\Users\yulian\Documents\GitHub\redline\redline/library/functions/widgets.php:83
 msgid "The fourth footer widget area"
 msgstr ""
-
