@@ -30,12 +30,12 @@
 
 	set_post_thumbnail_size( 150, 150 ); // 150 pixels wide by 150 pixels tall, box resize mode
 	
-	load_theme_textdomain( 'redline' , TEMPLATEPATH . '/lang' ); // load localization files
+	load_theme_textdomain( 'redline' , get_template_directory() . '/lang' ); // load localization files
 
 	
 	/* Blast you red baron! Initialise WP Framework */
 
-	require_once( TEMPLATEPATH . '/library/framework.php' );
+	require_once( get_template_directory() . '/library/framework.php' );
 		WPFramework::init();
 	
 ?>
