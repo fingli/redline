@@ -123,6 +123,7 @@ body, input, textarea {
 	background: #F5F5F5;
 	box-shadow: 0 0 4px #BCB8BA;
 	float: right;
+	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	padding: 10px 5px;
 	width: 405px;
 }
@@ -235,7 +236,6 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 }
 #blog_header,
 #blog_header a {
-	font-family: "Franklin Gothic Medium", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	font-size: 48px;
 	font-weight: bold;
 	line-height: 1.5em;
