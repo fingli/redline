@@ -240,6 +240,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 	font-weight: bold;
 	line-height: 1.5em;
 	margin: 0 5px;
+	padding-top: 27px;
 	text-align: center;
 	text-decoration: none;
 }

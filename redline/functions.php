@@ -14,7 +14,7 @@
 	'default-image'          =>  get_template_directory_uri() .'/library/media/images/header.jpg',
 	'random-default'         => false,
 	'width'                  => 960,
-	'height'                 => 85,
+	'height'                 => 200,
 	'flex-height'            => false,
 	'flex-width'             => false,
 	'default-text-color'     => 'FFF',
