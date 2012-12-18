@@ -175,7 +175,7 @@ body, input, textarea {
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 .sans-serif {
-	font-family: "Segoe UI", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 }
 
 
@@ -188,6 +188,7 @@ body, input, textarea {
 .entry-meta {
 	clear: both;
 	color: #333;
+	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	font-size: 11px;
 	padding-right: 5px;
 	text-align: right;
@@ -294,7 +295,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 .nav {
 	color: #111;
 	float: left;
-	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	width: 100%;
 }
 .nav, .nav * {
@@ -552,7 +553,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	font-weight: bold;
 }
 h1 {
@@ -889,6 +890,7 @@ input[type="submit"] {
 	padding: 10px;
 }
 .comment-meta {
+	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	font-size: 10px;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -969,6 +971,7 @@ input[type="submit"] {
 
 .pings-list {
 	font-size: 11px;
+	padding-left: 10px;
 }
 
 
@@ -981,7 +984,7 @@ input[type="submit"] {
 	color: #FFF;
 }
 #copyright {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	font-size: 11px;
 	margin-bottom: 0;
 	padding-right: 10px;
