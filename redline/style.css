@@ -766,10 +766,9 @@ dt {
 #search-query {
 	margin-left: 35px;
 }
-#sidebar_bottom ul {
+#secondary ul {
 	list-style-image: none;
 	list-style-type: none;
-	margin: 0 0 0 16px;
 }
 #sidebar_bottom li {
 	margin: 0;
