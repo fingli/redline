@@ -10,7 +10,9 @@ All translations are distributed under GPL.
 ---------------------------------
 ## en_US English        default language
 
-# fil-PH Filipino       Morten Elm - www.KolonihaverTilSalg.dk
+# pl_PL Polish          Jacek Zadrożny - www.informaton.pl
+
+# fil_PH Filipino       Morten Elm - www.KolonihaverTilSalg.dk
 
 # cs_CZ Czech           Tomas Vesely - www.pametiobce.cz
 
