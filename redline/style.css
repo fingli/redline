@@ -206,27 +206,23 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 }
 
 
-/*Feed Area */
+/* Feed Area */
 
 #feedarea {
+	border: medium none;
 	clear: both;
 	color: #111;
-	float: right;
-	font: 11px/1.5 Helvetica, Arial, sans-serif;
-	text-align: right;
-	width: 100%;
-}
-#feedarea dl {
+	font: bold 11px/1.3 Helvetica, Arial, sans-serif;
 	margin: 0 auto;
-	width: 89em;
+	width: 78%;
 }
-#feedarea dl dt {
+#feedarea tr {
+	border: medium none;
+}
+#feedarea tr td {
+	border: medium none;
 	display: inline;
-	line-height: 24px;
 	margin: 0 10px;
-}
-#feedarea dl dd{
-	display: none;
 }
 
 

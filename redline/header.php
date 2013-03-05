@@ -36,10 +36,10 @@
 <body <?php body_class(); ?>>
 
 	<!--Begin infoarea-->
-	<section id="siteinfo"><div id="feedarea">
-	<dl><dt><span style="float:left;"><?php bloginfo( 'description' ) ?></span>
-		<?php echo date_i18n( __( 'l, j F Y - G:i', 'redline' ) ); ?></dt>
-	</dl></div></section>
+	<section id="siteinfo"><table id="feedarea"><tr>
+		<td style="float:left;"><?php bloginfo( 'description' ) ?></td>
+		<td style="float:right;"><?php echo date_i18n( __( 'l, j F Y - G:i', 'redline' ) ); ?></td>
+	</tr></table></section>
 	<!--End infoarea -->
 
 	<!--BEGIN #container-->
