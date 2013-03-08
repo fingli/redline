@@ -54,7 +54,7 @@ if ( post_password_required() ) { ?>
 
 <!--BEGIN #respond-->
 <?php $custom_args = array(
-	'comment_field'        => '<p class="comment-form-comment"><textarea id="comment" name="comment" cols="90" rows="5" aria-required="true"></textarea></p>',
+	'comment_field'        => '<p class="comment-form-comment"><textarea title="textarea" id="comment" name="comment" cols="90" rows="5" aria-required="true"></textarea></p>',
 	'comment_notes_before' => '',
 	'comment_notes_after'  => '',
 	'title_reply'          => __( 'Leave a Reply', 'redline' ),

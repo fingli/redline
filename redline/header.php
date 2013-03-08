@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="generator" content="WordPress" />
 	<!--
 	+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+ +-+-+-+-+ 
@@ -49,12 +49,12 @@
 	<div id="header">
 	
 		<div id="topmenu" role="navigation"> 
-			<!--Primary menu /Pages/--><nav id="prim_nav"><?php prim_redline_nav(); ?></nav><!--END Primary menu /Pages/--> 
+			<!--Primary menu /Pages/--><nav id="prim_nav"><h2 style="display: none">Main Menu</h2><?php prim_redline_nav(); ?></nav><!--END Primary menu /Pages/--> 
 		</div><!--END #topmenu-->
 		
 		<!--Logo-->
 		<header role="banner"><div id="logo">
-		<h1 id="blog_header"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ) ?></a></h1></div></header><!--End Logo-->
+		<h1 id="blog_header"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'description', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ) ?></a></h1></div></header><!--End Logo-->
 
 		<!--Secondary menu-->
 		<div id="sec_nav" role="navigation"><?php sec_redline_nav(); ?></div>

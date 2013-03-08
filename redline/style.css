@@ -116,7 +116,7 @@ body, input, textarea {
 	box-shadow: 0 0 4px #333;
 	float: left;
 	padding: 10px 5px;
-	text-align: justify;
+	text-align: left;
 	width: 533px;
 }
 #secondary {
@@ -994,6 +994,7 @@ input[type="submit"] {
 /* Images */
 
 img {
+	height: auto;
 	max-width: 100%;
 }
 img.alignleft {
