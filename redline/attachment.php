@@ -14,7 +14,7 @@ get_header();
 				
 				<!--BEGIN .hentry-->
 				<div id="post-<?php the_ID(); ?>" class="<?php semantic_entries(); ?>">
-					<h1 class="entry-title"><a href="<?php echo get_permalink($post->post_parent); ?>" rel="attachment"><?php echo get_the_title($post->post_parent); ?></a> &raquo; <?php the_title(); ?></h1>
+					<h2 class="entry-title"><a href="<?php echo get_permalink($post->post_parent); ?>" rel="attachment"><?php echo get_the_title($post->post_parent); ?></a> &raquo; <?php the_title(); ?></h2>
 					
 					<!--BEGIN .entry-meta .entry-header-->
 					<div class="entry-meta entry-header">

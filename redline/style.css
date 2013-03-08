@@ -123,7 +123,7 @@ body, input, textarea {
 	background: #F5F5F5;
 	box-shadow: 0 0 4px #BCB8BA;
 	float: right;
-	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	padding: 10px 5px;
 	width: 405px;
 }
@@ -188,7 +188,7 @@ body, input, textarea {
 .entry-meta {
 	clear: both;
 	color: #333;
-	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	font-size: 11px;
 	padding-right: 5px;
 	text-align: right;
@@ -291,7 +291,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 .nav {
 	color: #111;
 	float: left;
-	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	width: 100%;
 }
 .nav, .nav * {
@@ -310,7 +310,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 }
 ul.nav li.current_page_item a,
 ul.nav li.current-menu-item a {
-	background: #638D00;
+	background: #638000;
 	color: #FFF;
 	font-size: 11px;
 	font-weight: bold;
@@ -526,17 +526,17 @@ a:hover {
 .entry-content a:link,
 .entry-content a:active {
 	color: #91003A;
-	text-decoration: none;
+	text-decoration: underline;
 }
 .entry-content a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 .entry-content a:visited {
 	color: #9D724F;
 }
 .entry-content a:visited:hover {
 	color: #9D4F4F;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .more-link {
 	background: #91003A;
@@ -549,7 +549,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	font-weight: bold;
 }
 h1 {
@@ -598,7 +598,7 @@ h6 {
 } 
 .format-chat .entry-content p{
 	border-left: 2px dotted #666;
-	font-family: Consolas, Monaco, "Lucida Console", "Courier New", monospace;
+	font-family: Consolas, Monaco, "Courier New", monospace;
 	margin-left: 15px;
 	padding-left: 5px;
 }
@@ -612,11 +612,12 @@ h6 {
 	font-style: italic;
 }
 .entry-title a {
-	color: #434343;
+	color: #333;
+	text-shadow: 2px 2px 2px #B0B0B0;
 }
 .entry-title {
 	color: #333;
-	font-family: "Arial Black", sans-serif;
+	font-family: "Arial Black", Arial, sans-serif;
 	font-size: 2em;
 	letter-spacing: -1px;
 	line-height: 1em;
@@ -689,7 +690,7 @@ ins {
 }
 var, kbd, samp, code, pre {
 	background: #F4F4F0;
-	font: 12px/1.62 Consolas, Monaco, "Lucida Console", "Courier New", monospace;
+	font: 12px/1.62 Consolas, Monaco, "Courier New", monospace;
 }
 kbd {
 	font-weight: bold;
@@ -886,7 +887,7 @@ input[type="submit"] {
 	padding: 10px;
 }
 .comment-meta {
-	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	font-size: 10px;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -980,7 +981,7 @@ input[type="submit"] {
 	color: #FFF;
 }
 #copyright {
-	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	font-size: 11px;
 	margin-bottom: 0;
 	padding-right: 10px;
@@ -993,7 +994,7 @@ input[type="submit"] {
 
 /* Images */
 
-img {
+img { /* prevent too-wide images from breaking layout */
 	height: auto;
 	max-width: 100%;
 }
@@ -1037,9 +1038,6 @@ img.aligncenter {
 	padding: 2px;
 	text-align: center;
 }
-.wp-caption {
-	max-width: 100%; /* prevent too-wide images from breaking layout */
-}
 .wp-caption img {
 	border: 0 none;
 	margin: 0;
@@ -1080,7 +1078,7 @@ img.aligncenter {
 	width: 50%;
 }
 .gallery-columns-3 .gallery-item {
-	width: 33.333%;
+	width: 33%;
 }
 .gallery-columns-4 .gallery-item {
 	width: 25%;

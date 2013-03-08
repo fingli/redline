@@ -12,11 +12,11 @@ get_header();
 			<?php if ( have_posts() ) : ?>
 
 				<?php /* If this is a daily archive */ if ( is_day() ) { ?>
-				<h1 class="page-title archive-title"><?php _e( 'Daily Archives:', 'redline' );?> <span class="daily-title"><?php the_time( __( 'F jS, Y', 'redline' ) ); ?></span></h1>
+				<h2 class="page-title archive-title"><?php _e( 'Daily Archives:', 'redline' );?> <span class="daily-title"><?php the_time( __( 'F jS, Y', 'redline' ) ); ?></span></h2>
 				<?php /* If this is a monthly archive */ } elseif ( is_month() ) { ?>
-				<h1 class="page-title archive-title"><?php _e( 'Monthly Archives:', 'redline' );?> <span class="monthly-title"><?php the_time( 'F, Y' ); ?></span></h1>
+				<h2 class="page-title archive-title"><?php _e( 'Monthly Archives:', 'redline' );?> <span class="monthly-title"><?php the_time( 'F, Y' ); ?></span></h2>
 				<?php /* If this is a yearly archive */ } elseif ( is_year() ) { ?>
-				<h1 class="page-title archive-title"><?php _e( 'Yearly Archives:', 'redline' );?> <span class="yearly-title"><?php the_time( 'Y' ); ?></span></h1>
+				<h2 class="page-title archive-title"><?php _e( 'Yearly Archives:', 'redline' );?> <span class="yearly-title"><?php the_time( 'Y' ); ?></span></h2>
 				<?php } ?>
 					<?php while ( have_posts() ) : the_post(); ?>
 

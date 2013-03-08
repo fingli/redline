@@ -11,7 +11,7 @@ get_header();
 			<!--BEGIN #primary-->
 			<div id="primary" class="hfeed" role="main">
 			<?php if ( have_posts() ) : ?>
-				<h1 class="page-title archive-title"><?php _e( 'Category Archives:', 'redline' );?> <span id="category-title"><?php single_cat_title(); ?></span></h1>
+				<h2 class="page-title archive-title"><?php _e( 'Category Archives:', 'redline' );?> <span id="category-title"><?php single_cat_title(); ?></span></h2>
 				<?php while ( have_posts() ) : the_post(); ?>
 				
 				<!--BEGIN .hentry-->

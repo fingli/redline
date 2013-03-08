@@ -10,7 +10,7 @@ get_header();
 			<!--BEGIN #primary .hfeed-->
 			<div id="primary" class="hfeed" role="main">
 			<?php if ( have_posts() ) : ?>
-				<h1 class="page-title archive-title"><?php _e( 'Tag Archives:', 'redline' );?> <span id="tag-title"><?php single_tag_title(); ?></span></h1>
+				<h2 class="page-title archive-title"><?php _e( 'Tag Archives:', 'redline' );?> <span id="tag-title"><?php single_tag_title(); ?></span></h2>
 				<?php while ( have_posts() ) : the_post(); ?>
 				
 				<!--BEGIN .hentry-->

@@ -213,7 +213,7 @@ function header_style() {
 ?>
 <style type="text/css">
 #logo {
-background: #fff url(<?php header_image(); ?>) bottom center no-repeat;
+background: #8E8E8E url(<?php header_image(); ?>) bottom center no-repeat;
 height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
 width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
 }

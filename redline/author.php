@@ -11,7 +11,7 @@ get_header();
 			<!--BEGIN #primary .hfeed-->
 			<div id="primary" class="hfeed" role="main">
 			<?php if ( have_posts() ) : ?>
-				<h1 class="page-title archive-title"><?php _e( 'Author Archives:', 'redline');?> <span class="author-title"><?php the_post(); echo $authordata->display_name; rewind_posts(); ?></span></h1>
+				<h2 class="page-title archive-title"><?php _e( 'Author Archives:', 'redline');?> <span class="author-title"><?php the_post(); echo $authordata->display_name; rewind_posts(); ?></span></h2>
 				<?php while ( have_posts() ) : the_post(); ?>
 
 				<!--BEGIN .hentry-->
