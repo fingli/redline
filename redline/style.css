@@ -97,7 +97,7 @@ a img {
 body, input, textarea {
 	background: #FFF;
 	color: #333;
-	font: 0.81em/1.62 Georgia, "Times New Roman", Times, serif;
+	font: 0.8125em/1.62 Georgia, "Times New Roman", Times, serif;
 }
 	
 /* Basic 2 column, (content)(aside), fixed layout */
@@ -630,6 +630,7 @@ h6 {
 	text-shadow: 0 1px 0 #FFF;
 }
 .entry-content {
+	font-size: 1.077em;
 	padding: 5px;
 }
 .sticky .entry-content {
@@ -655,8 +656,6 @@ abbr[title], acronym[title], dfn[title] {
 blockquote {
 	background: #F5F5EF;
 	border-left: 4px solid #638D00;
-	color: #333;
-	font-size: 12px;
 	font-style: italic;
 	margin-left: 15px;
 	margin-right: 25px;
@@ -1035,6 +1034,7 @@ img.aligncenter {
 	background: #F3F3F3;
 	border: 1px solid #DDD;
 	margin: 0 5px;
+	max-width: 95%;
 	padding: 2px;
 	text-align: center;
 }
