@@ -10,9 +10,11 @@
  */
 function framework_media() {
 	if( is_admin() ) return;
-	wp_enqueue_script( 'modernizr', JS . '/modernizr.js', array() );	
+	wp_enqueue_script( 'modernizr', JS . '/modernizr.js', array(), '2.6.2', false );	
 	wp_enqueue_script( 'combo', JS . '/combo.js', array( 'jquery' ), false, true );
 	wp_enqueue_script( 'screen_js', JS . '/screen.js', array( 'jquery' ), false, true );
+	wp_enqueue_style( 'print', CSS . '/print.css', array(), '2.1', 'print' );
+	wp_enqueue_style( 'style', get_stylesheet_directory_uri() . '/style.css', array(), '2.5.0', 'screen, projection' );
 }
 
 /**	//////////// Custom Menus ////////////
