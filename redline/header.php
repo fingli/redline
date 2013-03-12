@@ -32,9 +32,9 @@
 <body <?php body_class(); ?>>
 
 	<!--Begin infoarea-->
-	<section id="siteinfo"><table id="feedarea"><tr>
-		<td style="float:left;"><?php bloginfo( 'description' ) ?></td>
-		<td style="float:right;"><?php echo date_i18n( __( 'l, j F Y - G:i', 'redline' ) ); ?></td>
+	<section id="siteinfo"><table id="feedarea" title="site information"><tr>
+		<td style="float: left;"><?php bloginfo( 'description' ) ?></td>
+		<td style="float: right;"><?php echo date_i18n( __( 'l, j F Y - G:i', 'redline' ) ); ?></td>
 	</tr></table></section>
 	<!--End infoarea -->
 
@@ -45,7 +45,7 @@
 	<div id="header">
 	
 		<div id="topmenu" role="navigation"> 
-			<!--Primary menu /Pages/--><nav id="prim_nav"><h2 style="display: none">Main Menu</h2><?php prim_redline_nav(); ?></nav><!--END Primary menu /Pages/--> 
+			<!--Primary menu /Pages/--><nav id="prim_nav"><?php prim_redline_nav(); ?></nav><!--END Primary menu /Pages/--> 
 		</div><!--END #topmenu-->
 		
 		<!--Logo-->
