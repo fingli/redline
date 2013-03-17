@@ -529,6 +529,7 @@ a:hover {
 	text-decoration: underline;
 }
 .entry-content a:hover {
+	background: yellow;
 	text-decoration: none;
 }
 .entry-content a:visited {
@@ -539,11 +540,19 @@ a:hover {
 	text-decoration: none;
 }
 .more-link {
-	background: #91003A;
-	color: #FFF !important;
+	border: 1px solid;
 	padding: 3px;
 }
-
+#page-links {
+	padding-top: 5px;
+}
+#page-links a {
+	border: 1px solid;
+	padding: 3px;
+}
+#page-links a:hover {
+	background: yellow;
+}
 
 /* Headings */
 
