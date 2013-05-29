@@ -8,6 +8,22 @@
 ?>
 <?php
 	if (
+		! is_active_sidebar( 'first-footer-widget-area' )  &&
+		! is_active_sidebar( 'second-footer-widget-area' ) &&
+		! is_active_sidebar( 'third-footer-widget-area' )  &&
+		! is_active_sidebar( 'fourth-footer-widget-area' )
+	) :
+?>
+	<!--BEGIN #widget-tags-->
+	<div class="widget">
+		<h3 class="widget-title-footer"><?php _e( 'Tags', 'redline' );?></h3>
+		<?php if ( function_exists( 'wp_tag_cloud' ) ) { wp_tag_cloud( 'largest=20' ); } ?>
+	</div><!--END #widget-tags-->	
+	
+<?php endif; /* (!function_exists( 'dynamic_sidebar' ) */ ?>
+
+<?php
+	if (
 		is_active_sidebar( 'first-footer-widget-area' )  ||
 		is_active_sidebar( 'second-footer-widget-area' ) ||
 		is_active_sidebar( 'third-footer-widget-area' )  ||
