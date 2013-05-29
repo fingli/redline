@@ -2,6 +2,14 @@
 |C|h|a|n|g|e|l|o|g|
 +-+-+-+-+-+-+-+-+-+
 
+v. 2.6.0 - June 2013
+
+ - Added Polish translation
+ - Accessibility improvements
+ - Added new header image
+ - Added a default widget in footer
+ - Other layout tweaks and improvements
+
 v. 2.5.0 - December 2012
 
  - Added Filipino language

@@ -1,8 +1,8 @@
 /***
 Theme Name:		RedLine
 Theme URI:		http://post-scriptum.info/redline-theme/
-Version:		2.5.0
-Description:	A lightweight but powerful WordPress theme built on WP Framework. It has very printer-friendly layout and other features like microformats, a traditional template structure, clean semantic code and atomic template system. RedLine includes custom menus, changeable header and background. The theme has 7 widgetized areas (3 in sidebars and 4 in footer) and supports different post formats. Moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> (<a href="http://www.section508.gov/">Section 508</a>) standards. Currently RedLine is available by default in English but it's also localized in Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese, Swedish, Belarusian, Romanian, Czech and Filipino languages.
+Version:		2.6.0
+Description:	A lightweight but powerful WordPress theme built on WP Framework. It has very printer-friendly layout and other features like microformats, a traditional template structure, clean semantic code and atomic template system. RedLine includes custom menus, changeable header and background. The theme has 7 widgetized areas (3 in sidebars and 4 in footer) and supports different post formats. Moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> standards. Currently RedLine is available by default in English but it's also localized in Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese, Swedish, Belarusian, Romanian, Czech, Filipino and Polish languages.
 Author: 		Yulian Yordanov
 Author URI:		http://post-scriptum.info/
 Tags:			light, white, red, two-columns, three-columns, right-sidebar, custom-header, custom-background, custom-menu, fixed-width, sticky-post, threaded-comments, microformats, post-formats, translation-ready
@@ -14,6 +14,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WP Framework: Copyright 2008 Ptah Dunbar <http://ptahdunbar.com> All rights reserved.
 WP Framework is licensed under the terms of the GNU General Public License version 2.
 !-----------------------------------------------------------------------------------!
+
+The header image is Public Domain - http://www.flickr.com/photos/nasacommons/7610988192/sizes/l/
 
 ***/
 
@@ -162,7 +164,7 @@ body, input, textarea {
 #footer-widget-area {
 	font-size: 12px;
 	overflow: hidden;
-	padding: 0 10px;
+	padding: 0 5px;
 }
 #footer-widget-area .widget-area {
 	float: left;
