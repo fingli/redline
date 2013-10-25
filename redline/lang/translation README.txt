@@ -10,6 +10,8 @@ All translations are distributed under GPL.
 ---------------------------------
 ## en_US English        default language
 
+# sr_RS Serbo-Croatian  Borisa Djuraskovic
+
 # pl_PL Polish          Jacek Zadrożny - www.informaton.pl
 
 # fil_PH Filipino       Morten Elm - www.KolonihaverTilSalg.dk
