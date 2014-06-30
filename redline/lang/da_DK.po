@@ -1,0 +1,589 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RedLine v2.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-12 07:21:25+0000\n"
+"Last-Translator: fadmin <hej@findhold.dk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ redline
+msgid "Error 404! Not Found"
+msgstr "Fejl 404! Ikke fundet"
+
+#: 404.php:19
+#: archive.php:58
+#: category.php:63
+#: date.php:65
+#: index.php:51
+#: single.php:59
+#: tag.php:58
+#@ redline
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Beklager, men du leder efter noget som ikke findes her."
+
+#: archive.php:13
+#@ redline
+msgid "Archives:"
+msgstr "Arkiver:"
+
+#: archive.php:18
+#: author.php:19
+#: category.php:19
+#: date.php:25
+#: index.php:17
+#: index.php:21
+#: search.php:20
+#: tag.php:18
+#@ redline
+msgid "Permanent Link to"
+msgstr "Permanent link til"
+
+#: archive.php:22
+#: attachment.php:21
+#: author.php:23
+#: category.php:23
+#: date.php:29
+#: search.php:24
+#: tag.php:22
+#@ redline
+msgid "Written by"
+msgstr "Skrevet af"
+
+#: archive.php:22
+#: attachment.php:21
+#: author.php:23
+#: category.php:23
+#: date.php:29
+#: index.php:22
+#: search.php:24
+#: single.php:22
+#: tag.php:22
+#, php-format
+#@ redline
+msgid "View all posts by %s"
+msgstr "Se alle poster af %s"
+
+#: archive.php:23
+#: attachment.php:22
+#: author.php:24
+#: category.php:24
+#: date.php:30
+#: single.php:24
+#: tag.php:23
+#@ redline
+msgid "on"
+msgstr "om"
+
+#: archive.php:25
+#: attachment.php:24
+#: author.php:26
+#: category.php:26
+#: date.php:32
+#: index.php:36
+#: search.php:27
+#: single.php:26
+#: tag.php:25
+#@ redline
+msgid "Leave a Comment"
+msgstr "Skriv en kommentar"
+
+#: archive.php:25
+#: attachment.php:24
+#: author.php:26
+#: category.php:26
+#: date.php:32
+#: index.php:36
+#: library/functions/comments.php:47
+#: search.php:27
+#: single.php:26
+#: tag.php:25
+#@ redline
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: archive.php:25
+#: attachment.php:24
+#: author.php:26
+#: category.php:26
+#: date.php:32
+#: index.php:36
+#: library/functions/comments.php:45
+#: search.php:27
+#: single.php:26
+#: tag.php:25
+#@ redline
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: archive.php:26
+#: author.php:27
+#: category.php:27
+#: date.php:33
+#: index.php:23
+#: library/functions/pluggable.php:133
+#: page.php:21
+#: search.php:28
+#: single.php:27
+#: tag.php:26
+#@ redline
+msgid "edit"
+msgstr "rediger"
+
+#: archive.php:38
+#: author.php:39
+#: date.php:45
+#: index.php:34
+#: search.php:40
+#: single.php:38
+#: tag.php:38
+#@ redline
+msgid "Posted in"
+msgstr "Postet under"
+
+#: archive.php:41
+#: author.php:42
+#: category.php:46
+#: date.php:48
+#: search.php:43
+#: single.php:41
+#@ redline
+msgid "Tagged"
+msgstr "Tagged"
+
+#: archive.php:54
+#: attachment.php:46
+#: author.php:55
+#: category.php:59
+#: date.php:61
+#: index.php:47
+#: single.php:55
+#: tag.php:54
+#@ redline
+msgid "Not Found"
+msgstr "Ikke fundet"
+
+#: attachment.php:50
+#@ redline
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Beklager, ingen attachments matchede dine kriterier."
+
+#: author.php:14
+#@ redline
+msgid "Author Archives:"
+msgstr "Forfatter arkiver:"
+
+#: author.php:59
+#@ redline
+msgid "Sorry, but"
+msgstr "Beklager, men"
+
+#: author.php:59
+#@ redline
+msgid "hasn't posted anything yet."
+msgstr "har ikke skrevet noget endnu."
+
+#: category.php:14
+#@ redline
+msgid "Category Archives:"
+msgstr "Kategori arkiver:"
+
+#: category.php:40
+#@ redline
+msgid "Also posted in"
+msgstr "Også posted i"
+
+#: comments.php:14
+#@ redline
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Denne post er password beskyttet. Skriv password for at se kommentarerne."
+
+#: comments.php:28
+#@ redline
+msgid "Older Comments"
+msgstr "Ældre kommentarer"
+
+#: comments.php:29
+#@ redline
+msgid "Newer Comments"
+msgstr "Nyere kommentarer"
+
+#: comments.php:50
+#@ redline
+msgid "Comments are closed."
+msgstr "Kommentarer er lukket"
+
+#: comments.php:57
+#@ redline
+msgid "Write your thoughts"
+msgstr "Skriv dine tanker"
+
+#: comments.php:60
+#@ redline
+msgid "Leave a Reply"
+msgstr "Skriv et svar"
+
+#: comments.php:61
+#, php-format
+#@ redline
+msgid "Leave a Reply to %s"
+msgstr "Skriv et svar til %s"
+
+#: comments.php:62
+#@ redline
+msgid "Cancel reply"
+msgstr "Annuller svar"
+
+#: comments.php:63
+#@ redline
+msgid "Post Comment"
+msgstr "Skriv kommentar"
+
+#: date.php:15
+#@ redline
+msgid "Daily Archives:"
+msgstr "Daglige arkiver"
+
+#: date.php:15
+#@ redline
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: date.php:17
+#@ redline
+msgid "Monthly Archives:"
+msgstr "Månedlige arkiver"
+
+#: date.php:19
+#@ redline
+msgid "Yearly Archives:"
+msgstr "Årlige arkiver"
+
+#: header.php:41
+#@ redline
+msgid "l, j F Y - G:i"
+msgstr "l, j F Y - G:i"
+
+#: index.php:21
+#@ redline
+msgid "Author:"
+msgstr "Forfatter:"
+
+#: index.php:28
+#: single.php:32
+#@ redline
+msgid "Read more"
+msgstr "Læs mere"
+
+#: index.php:29
+#: single.php:33
+#@ redline
+msgid "Pages:"
+msgstr "Sider:"
+
+#: library/extensions/semantic-classes.php:42
+#: library/extensions/semantic-classes.php:47
+#@ redline
+msgid "Archives for"
+msgstr "Arkiver for"
+
+#: library/extensions/semantic-classes.php:52
+#@ redline
+msgid "Search Results"
+msgstr "Søgeresultater"
+
+#: library/extensions/semantic-classes.php:57
+#@ redline
+msgid "Error 404!"
+msgstr "Fejl 404!"
+
+#: library/functions/comments.php:18
+#@ redline
+msgid "Name"
+msgstr "Navn"
+
+#: library/functions/comments.php:18
+#: library/functions/comments.php:21
+#@ redline
+msgid "(required)"
+msgstr "(krævet)"
+
+#: library/functions/comments.php:21
+#@ redline
+msgid "Email"
+msgstr "Email"
+
+#: library/functions/comments.php:24
+#@ redline
+msgid "Website"
+msgstr "Hjemmeside"
+
+#: library/functions/comments.php:46
+#@ redline
+msgid "No Comments yet"
+msgstr "Ingen kommentarer endnu"
+
+#: library/functions/comments.php:51
+#@ redline
+msgid "% Trackbacks"
+msgstr "% trackbacks"
+
+#: library/functions/comments.php:53
+#@ redline
+msgid "1 Trackback"
+msgstr "1 trackback"
+
+#: library/functions/comments.php:70
+#@ redline
+msgid " to "
+msgstr " til "
+
+#: library/functions/comments.php:88
+#@ redline
+msgid "You can follow all the replies to this entry through the"
+msgstr "Du kan følge alle svar til denne post via"
+
+#: library/functions/comments.php:88
+#@ redline
+msgid "comments feed"
+msgstr "kommentar feed"
+
+#: library/functions/comments.php:226
+#@ redline
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse"
+
+#: library/functions/comments.php:270
+#@ redline
+msgid "By "
+msgstr "Af"
+
+#: library/functions/comments.php:271
+#@ redline
+msgid " on "
+msgstr " om "
+
+#: library/functions/comments.php:272
+#@ redline
+msgid " at "
+msgstr " i "
+
+#: library/functions/comments.php:274
+#@ redline
+msgid "Your trackback is awaiting moderation."
+msgstr "Din trackback afventer godkendelse"
+
+#: library/functions/functions.php:27
+#@ redline
+msgid "Primary Menu"
+msgstr "Primær menu"
+
+#: library/functions/functions.php:28
+#@ redline
+msgid "Secondary Menu"
+msgstr "Sekundær menu"
+
+#: library/functions/pluggable.php:20
+#@ redline
+msgid "leave a comment"
+msgstr "skriv en kommentar"
+
+#: library/functions/pluggable.php:20
+#@ redline
+msgid "comment"
+msgstr "kommentar"
+
+#: library/functions/pluggable.php:20
+#@ redline
+msgid "comments"
+msgstr "kommentarer"
+
+#: library/functions/pluggable.php:20
+#@ redline
+msgid "comments closed"
+msgstr "kommentarer lukket"
+
+#: library/functions/pluggable.php:118
+#@ redline
+msgid "Permalink to this comment"
+msgstr "Permalink til denne kommentar"
+
+#: library/functions/pluggable.php:119
+#@ redline
+msgid "Permalink"
+msgstr "Permalink"
+
+#: library/functions/pluggable.php:147
+#@ redline
+msgid "Reply"
+msgstr "Svar"
+
+#: library/functions/pluggable.php:148
+#@ redline
+msgid "Log in to reply."
+msgstr "Log in for at svare."
+
+#: library/functions/widgets.php:15
+#@ redline
+msgid "Top Widget Area"
+msgstr "Top Widget område"
+
+#: library/functions/widgets.php:16
+#@ redline
+msgid "Top widget area"
+msgstr "Top widget område"
+
+#: library/functions/widgets.php:26
+#@ redline
+msgid "Left Widget Area"
+msgstr "Venstre Widget område"
+
+#: library/functions/widgets.php:27
+#@ redline
+msgid "The left widget area"
+msgstr "Det venste widget område"
+
+#: library/functions/widgets.php:37
+#@ redline
+msgid "Right Widget Area"
+msgstr "Højre Widget område"
+
+#: library/functions/widgets.php:38
+#@ redline
+msgid "The right widget area"
+msgstr "Det højre widget område"
+
+#: library/functions/widgets.php:49
+#@ redline
+msgid "First Footer Widget Area"
+msgstr "Første footer Widget område"
+
+#: library/functions/widgets.php:50
+#@ redline
+msgid "The first footer widget area"
+msgstr "Det første footer widget område"
+
+#: library/functions/widgets.php:60
+#@ redline
+msgid "Second Footer Widget Area"
+msgstr "Andet footer Widget område"
+
+#: library/functions/widgets.php:61
+#@ redline
+msgid "The second footer widget area"
+msgstr "Det andet footer widget område"
+
+#: library/functions/widgets.php:71
+#@ redline
+msgid "Third Footer Widget Area"
+msgstr "Tredje footer Widget område"
+
+#: library/functions/widgets.php:72
+#@ redline
+msgid "The third footer widget area"
+msgstr "Det tredje footer widget område"
+
+#: library/functions/widgets.php:82
+#@ redline
+msgid "Fourth Footer Widget Area"
+msgstr "Fjerde footer Widget område"
+
+#: library/functions/widgets.php:83
+#@ redline
+msgid "The fourth footer widget area"
+msgstr "Det fjerde footer widget område"
+
+#: navigation.php:18
+#@ redline
+msgid "Older Entries"
+msgstr "Ældre poster"
+
+#: navigation.php:19
+#@ redline
+msgid "Newer Entries"
+msgstr "Nyere poster"
+
+#: search.php:13
+#@ redline
+msgid "Search Results for:"
+msgstr "Søgeresultater for:"
+
+#: search.php:58
+#@ redline
+msgid "Your search for"
+msgstr "Din søgning efter"
+
+#: search.php:58
+#@ redline
+msgid "did not match any entries"
+msgstr "matchede ikke nogen poster"
+
+#: search.php:62
+#@ redline
+msgid "Suggestions:"
+msgstr "Forslag"
+
+#: search.php:64
+#@ redline
+msgid "Make sure all words are spelled correctly."
+msgstr "Check at alle ord er stavet korrekt."
+
+#: search.php:65
+#@ redline
+msgid "Try different keywords."
+msgstr "Prøv andre ord."
+
+#: search.php:66
+#@ redline
+msgid "Try more general keywords."
+msgstr "Prøv mere generelle ord."
+
+#: searchform.php:11
+#@ redline
+msgid "Search"
+msgstr "Søg"
+
+#: sidebar-footer.php:19
+#@ redline
+msgid "Tags"
+msgstr "Tags"
+
+#: sidebar-left.php:13
+#@ redline
+msgid "Pages"
+msgstr "Sider"
+
+#: sidebar-right.php:12
+#@ redline
+msgid "Site admin"
+msgstr "Site admin"
+
+#: sidebar-top.php:12
+#@ redline
+msgid "Picture"
+msgstr "Billede"
+
+#: tag.php:13
+#@ redline
+msgid "Tag Archives:"
+msgstr "Tag arkiver:"
+
+#: tag.php:41
+#@ redline
+msgid "Also tagged"
+msgstr "Også tagged"
+
