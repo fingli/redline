@@ -11,7 +11,7 @@
  
 	// default header style
 	$header_defaults = array(
-	'default-image'          =>  get_template_directory_uri() .'/library/media/images/header.jpg',
+	'default-image'          => get_template_directory_uri() .'/library/media/images/header.jpg',
 	'random-default'         => false,
 	'width'                  => 960,
 	'height'                 => 200,
