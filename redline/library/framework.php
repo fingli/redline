@@ -15,7 +15,7 @@ class WPFramework {
 	 *
 	 * @since 0.1
 	 */
-	function init() {
+	public static function init() {
 		$theme = new WPFramework;
 
 		$theme->enviroment();
@@ -45,7 +45,8 @@ class WPFramework {
 		define( 'THEME', get_template_directory_uri() , true );
 		define( 'LIBRARY', THEME . '/library', true ); // Shortcut to point to the /library/ URI
 
-		if ( get_stylesheet_directory() !== get_template_directory() ) define( 'MEDIA', get_stylesheet_directory_uri(), true ); // Shortcut to point to the /media/ URI
+		if ( get_stylesheet_directory() !== get_template_directory() ) 
+			 define( 'MEDIA', get_stylesheet_directory_uri(), true ); // Shortcut to point to the /media/ URI
 		else define( 'MEDIA', LIBRARY . '/media', true ); // Shortcut to point to the /media/ URI
 
 		define( 'CSS', MEDIA . '/css', true );
