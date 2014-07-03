@@ -10,7 +10,7 @@
  */
 function framework_media() {
 	if ( is_admin() ) return;
-	wp_enqueue_script( 'modernizr', JS . '/modernizr.js', array(), '2.6.2', false );	
+	wp_enqueue_script( 'modernizr', JS . '/modernizr.js', array(), '2.8.2', false );	
 	wp_enqueue_script( 'combo', JS . '/combo.js', array( 'jquery' ), false, true );
 	wp_enqueue_script( 'screen_js', JS . '/screen.js', array( 'jquery' ), false, true );
 }
