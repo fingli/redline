@@ -32,10 +32,10 @@
 	
 	load_theme_textdomain( 'redline' , get_template_directory() . '/lang' ); // load localization files
 
-	
+
 	/* Blast you red baron! Initialise WP Framework */
 
 	require_once( get_template_directory() . '/library/framework.php' );
 		WPFramework::init();
-	
+
 ?>

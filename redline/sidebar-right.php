@@ -16,4 +16,3 @@
 		</ul>
 	</div>
 	<?php endif; /* (!function_exists('dynamic_sidebar') */ ?>
-

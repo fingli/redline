@@ -16,4 +16,3 @@
 				</ul>
 			</div><!--END #widget-pages-->
 	<?php endif; /* (!function_exists('dynamic_sidebar') */ ?>
-

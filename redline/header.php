@@ -11,9 +11,9 @@
 	+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+ +-+-+-+-+ 
 	|W|o|r|d|P|r|e|s|s| |i|s| |t|h|e| |b|e|s|t| 
 	+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+ +-+-+-+-+ -->
-		
+
 	<title><?php semantic_title(); ?></title>
-	
+
 	<link rel="profile" href="http://purl.org/uF/hAtom/0.1/" />
 	<link rel="profile" href="http://purl.org/uF/2008/03/" />
 
@@ -27,7 +27,7 @@
 
 	<?php if ( is_singular() && get_option( 'thread_comments' ) ) 
 		wp_enqueue_script( 'comment-reply' ); /* loads script required for threaded comments */ ?>
-			
+
 	<!-- Theme Hook. Place any custom script or code here but not bellow wp_head() -->
 	<?php wp_head(); ?>
 </head><!--END head-->
@@ -47,19 +47,19 @@
 	
 	<!--BEGIN .header-->
 	<div id="header">
-	
+
 		<div id="topmenu" role="navigation"> 
 			<!--Primary menu /Pages/--><nav id="prim_nav"><?php prim_redline_nav(); ?></nav><!--END Primary menu /Pages/--> 
 		</div><!--END #topmenu-->
-		
+
 		<!--Logo-->
 		<header role="banner"><div id="logo">
 		<h1 id="blog_header"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'description', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ) ?></a></h1></div></header><!--End Logo-->
 
 		<!--Secondary menu-->
 		<div id="sec_nav" role="navigation"><?php sec_redline_nav(); ?></div>
-		
+
 	</div><!--END .header-->
-	
+
 	<!--BEGIN #content-->
 	<div id="content">
