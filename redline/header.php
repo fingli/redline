@@ -19,8 +19,9 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>" type="text/css" media="screen, projection" />
-	<link rel="stylesheet" href="<?php echo CSS . '/print.css'; ?>" type="text/css" media="print" />	
-	
+	<link rel="stylesheet" href="<?php echo CSS . '/print.css'; ?>" type="text/css" media="print" />
+	<!--[if lt IE 9]> <script src="<?php echo JS . '/html5shiv.js'; ?>" type="text/javascript"</script> <![endif]-->
+
 	<!-- Links: RSS + Atom Syndication + Pingback etc. -->
 	<link rel="alternate" href="<?php echo get_feed_link( 'atom' ); ?>" type="application/atom+xml" title="Sitewide ATOM Feed" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
