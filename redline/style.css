@@ -92,18 +92,18 @@ a img {
 
 
 	/** Applying base theme styles and colors **/
-	
+
 
 /* Document Body */
 
 body, input, textarea {
-	background: #FFF;
+	background: url("library/media/images/carbon.png") #FFF;
 	color: #333;
-	font: 0.8125em/1.62 Georgia, "Times New Roman", Times, serif;
+	font: 0.8125em/1.62 Georgia, serif;
 }
-	
+
 /* Basic 2 column, (content)(aside), fixed layout */
- 
+
 #container {
 	background: url("library/media/images/bg.png") #EBEBEB;
 	border-radius: 10px;
@@ -121,13 +121,13 @@ body, input, textarea {
 	text-align: left;
 	width: 530px;
 	word-wrap: break-word;
-	-ms-word-wrap: break-word;	
+	-ms-word-wrap: break-word;
 }
 #secondary {
 	background: #F5F5F5;
 	box-shadow: 0 0 4px #333;
 	float: right;
-	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding: 10px 5px;
 	width: 400px;
 	word-wrap: break-word;
@@ -140,7 +140,7 @@ body, input, textarea {
 	margin-bottom: 0;
 	padding: 5px;
 	word-wrap: break-word;
-	-ms-word-wrap: break-word;	
+	-ms-word-wrap: break-word;
 }
 
 
@@ -189,14 +189,13 @@ body, input, textarea {
 /* Vertical Rhythm */
 
 .entry-header {
-	border-top: 2px solid #A51C30;
 	clear: both;
 }
 .entry-meta {
 	clear: both;
 	color: #333;
-	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
-	font-size: 11px;
+	font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+	font-size: 12px;
 	padding-right: 5px;
 	text-align: right;
 }
@@ -282,7 +281,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 
 #topmenu {
 	height: 24px;
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
 	width: 100%;
 }
 .menu {
@@ -299,7 +298,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 .nav {
 	color: #111;
 	float: left;
-	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
+	font-family: Arial, "DejaVu Sans Serif", sans-serif;
 	width: 100%;
 }
 .nav, .nav * {
@@ -572,7 +571,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: bold;
 }
 h1 {
@@ -625,7 +624,9 @@ h6 {
 	margin-left: 15px;
 	padding-left: 5px;
 }
-
+.post-title {
+	border-bottom: 2px solid #A51C30;
+}
 .page-title {
 	font-size: 14px;
 	font-weight: bold;
@@ -909,7 +910,7 @@ input[type="submit"] {
 	padding: 10px;
 }
 .comment-meta {
-	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 10px;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -1003,7 +1004,7 @@ input[type="submit"] {
 	color: #FFF;
 }
 #copyright {
-	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 11px;
 	margin-bottom: 0;
 	padding-right: 10px;
