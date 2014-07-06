@@ -2,6 +2,17 @@
 |C|h|a|n|g|e|l|o|g|
 +-+-+-+-+-+-+-+-+-+
 
+
+v. 2.8.0 - July 2014
+
+ - Added Serbo-Croatian language
+ - Added Danish language
+ - Made init() public static function
+ - New version of Modernizr
+ - Added html5shiv.js for compatibility with old versions of IE
+ - Changes in the css layout
+
+ 
 v. 2.6.0 - June 2013
 
  - Added Polish translation
@@ -10,6 +21,7 @@ v. 2.6.0 - June 2013
  - Added a default widget in footer
  - Other layout tweaks and improvements
 
+ 
 v. 2.5.0 - December 2012
 
  - Added Filipino language
@@ -23,6 +35,7 @@ v. 2.5.0 - December 2012
  - Updated translation files
  - Other CSS and code improvements
 
+ 
 v. 2.1.0 - May 2012
 
  - Added Romanian translation
@@ -35,6 +48,7 @@ v. 2.1.0 - May 2012
  - Some CSS changes
  - Other minor improvements
 
+ 
 v. 2.0.0 - February 2012
 
  - Added Belarusian translation

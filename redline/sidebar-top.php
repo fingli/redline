@@ -11,8 +11,8 @@
 	<div class="widget">
 		<h3 class="widget-title"><?php _e( 'Picture', 'redline' );?></h3>
 		<div class="wp-caption">
-		<img src="<?php echo get_template_directory_uri() .'/library/media/images/Country-Road-with-Balloons_400x250.jpg' ?>" alt="Country Road with Balloons" />
-		<p class="wp-caption-text">Public domain via<br />www.burningwell.org/gallery2/v/Artwork/Country-Road-with-Balloons.jpg.html</p>
+		<img src="<?php echo get_template_directory_uri() .'/library/media/images/security-lock.jpg' ?>" alt="Security Lock" />
+		<p class="wp-caption-text">Image is Public Domain from<br />http://pixabay.com/en/security-lock-symbol-love-368498/</p>
 		</div>
 	</div><!--END #widget-picture-->
 
